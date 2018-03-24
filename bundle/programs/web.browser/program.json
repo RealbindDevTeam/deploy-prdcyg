@@ -1,0 +1,989 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "d270203557d9b3a9f20787b7424b5c98b2a8c51b.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/d270203557d9b3a9f20787b7424b5c98b2a8c51b.js?meteor_js_resource=true",
+      "size": 7279103,
+      "hash": "d270203557d9b3a9f20787b7424b5c98b2a8c51b"
+    },
+    {
+      "path": "d270203557d9b3a9f20787b7424b5c98b2a8c51b.stats.json",
+      "where": "client",
+      "type": "json",
+      "cacheable": true,
+      "url": "/d270203557d9b3a9f20787b7424b5c98b2a8c51b.stats.json?meteor_js_resource=true",
+      "size": 90462,
+      "hash": "000b3c98072142670aa88d87b2e370709a488c6e"
+    },
+    {
+      "path": "ac2b5c61e90724624208c136338c2f9dea4efa59.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/ac2b5c61e90724624208c136338c2f9dea4efa59.css?meteor_css_resource=true",
+      "size": 7336,
+      "hash": "ac2b5c61e90724624208c136338c2f9dea4efa59"
+    },
+    {
+      "path": "packages/oauth/end_of_popup_response.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/oauth/end_of_popup_response.js",
+      "size": 1137,
+      "hash": "8a36abddc07778ebcf5db6253f08bd2b63d02c63"
+    },
+    {
+      "path": "packages/oauth/end_of_redirect_response.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/oauth/end_of_redirect_response.js",
+      "size": 273,
+      "hash": "6a6f05754801932831eca4680f582c87a8da062a"
+    },
+    {
+      "path": "app/css/animate.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/css/animate.css",
+      "size": 23848,
+      "hash": "644dc7109b0e2ef74a2be1044ae37f762c7d78c2"
+    },
+    {
+      "path": "app/css/font-awesome.min.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/css/font-awesome.min.css",
+      "size": 31000,
+      "hash": "e4db21387d5224ca1bd8e208f81b0f831a4288c4"
+    },
+    {
+      "path": "app/fonts/FontAwesome.otf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/FontAwesome.otf",
+      "size": 134808,
+      "hash": "cd12480a6626f5faf89ddd7ebb00edf64059498d"
+    },
+    {
+      "path": "app/fonts/fontawesome-webfont.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/fontawesome-webfont.eot",
+      "size": 165742,
+      "hash": "5e3a1a9b72af1d842682f7e0a5c305922c583e3f"
+    },
+    {
+      "path": "app/fonts/fontawesome-webfont.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/fontawesome-webfont.svg",
+      "size": 444379,
+      "hash": "2958ef6f1890fda3f47468dedc70c2e1b2dd9511"
+    },
+    {
+      "path": "app/fonts/fontawesome-webfont.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/fontawesome-webfont.ttf",
+      "size": 165548,
+      "hash": "dbaed61bd8235d7e12522b21ce66fb90a4f9740d"
+    },
+    {
+      "path": "app/fonts/fontawesome-webfont.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/fontawesome-webfont.woff",
+      "size": 98024,
+      "hash": "951644ff8c02065fd58f609d142e45daaaa5370f"
+    },
+    {
+      "path": "app/fonts/fontawesome-webfont.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/fontawesome-webfont.woff2",
+      "size": 77160,
+      "hash": "a34ffd10b2a49d55d6247e351520ffdf556e0bb1"
+    },
+    {
+      "path": "app/i18n/en.json",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/i18n/en.json",
+      "size": 87791,
+      "hash": "021bc68b83331dd7986bcd981c190ade48e5c113"
+    },
+    {
+      "path": "app/i18n/es.json",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/i18n/es.json",
+      "size": 93416,
+      "hash": "052fb61653adbac1b6e2071897487a2dabda00eb"
+    },
+    {
+      "path": "app/images/404.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/404.png",
+      "size": 14627,
+      "hash": "7a35dcb64a4ee3bf41df8bb491dd61c650834757"
+    },
+    {
+      "path": "app/images/aditions.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/aditions.png",
+      "size": 17204,
+      "hash": "7140804bdb8f18bac3256598d51b0979a96bd96a"
+    },
+    {
+      "path": "app/images/admin-register-pma.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/admin-register-pma.png",
+      "size": 54931,
+      "hash": "fc935b33fcdebba6884129225f85fbae0bba898a"
+    },
+    {
+      "path": "app/images/admin-register-pmc.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/admin-register-pmc.png",
+      "size": 34580,
+      "hash": "0195e8c97feb4178905f5c68689c0915ab17279d"
+    },
+    {
+      "path": "app/images/admin-register-pmo.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/admin-register-pmo.png",
+      "size": 25295,
+      "hash": "85a914ad610379ddafb98e0ef1e2d002f121b447"
+    },
+    {
+      "path": "app/images/admin-register-pmp.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/admin-register-pmp.png",
+      "size": 29311,
+      "hash": "8a0886786bd7c00f07b05e15f749449ad17d3626"
+    },
+    {
+      "path": "app/images/admin-register-pmt.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/admin-register-pmt.png",
+      "size": 62122,
+      "hash": "e00355fead6c3f5bb1b324efdbaad1e3c6ba2c2b"
+    },
+    {
+      "path": "app/images/admin-signup-1.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/admin-signup-1.png",
+      "size": 1718181,
+      "hash": "e33e01e734675c2f1239e5435fcb8d5928e9b020"
+    },
+    {
+      "path": "app/images/admin-signup.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/admin-signup.png",
+      "size": 1718830,
+      "hash": "afdb08ebd97548a0b4572e5e57a623f642086138"
+    },
+    {
+      "path": "app/images/amex.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/amex.png",
+      "size": 5306,
+      "hash": "d889e6ca6389262a1aed2cdb7c064a25c24ca4d5"
+    },
+    {
+      "path": "app/images/asd-en.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/asd-en.png",
+      "size": 20157,
+      "hash": "5aab6ad9f4f43a131992fdf8b0278a3ea9e1c26a"
+    },
+    {
+      "path": "app/images/asd-es.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/asd-es.png",
+      "size": 19806,
+      "hash": "1b18e3275a39d3fe51af4805cfa16970eb6c5314"
+    },
+    {
+      "path": "app/images/background_waiter.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/background_waiter.png",
+      "size": 4089,
+      "hash": "cd19b2659e220f22b67638ce56c14b60ba0d131d"
+    },
+    {
+      "path": "app/images/cash-payment.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/cash-payment.png",
+      "size": 8280,
+      "hash": "b97f0c9cc892415d512da5c092b830a6b9969d64"
+    },
+    {
+      "path": "app/images/categories.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/categories.png",
+      "size": 21696,
+      "hash": "bd384f362447cadc1506c0eea6a5d0c029ea4ece"
+    },
+    {
+      "path": "app/images/chef.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/chef.png",
+      "size": 6527,
+      "hash": "efd9b5f5a489c220f0f8068633c8ff4fb96c7a2a"
+    },
+    {
+      "path": "app/images/credit-card-payment.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/credit-card-payment.png",
+      "size": 5104,
+      "hash": "ed2fe091cb6d34f03e7f519f983a1758fb470a06"
+    },
+    {
+      "path": "app/images/dashboard-banner.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/dashboard-banner.png",
+      "size": 108320,
+      "hash": "7beb0e1c45519180239e4e82d9f77c3abd30acf8"
+    },
+    {
+      "path": "app/images/debit-card-payment.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/debit-card-payment.png",
+      "size": 5952,
+      "hash": "d94b910074dec98b87422e0b7e7f1fe68d072a16"
+    },
+    {
+      "path": "app/images/default-plate.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/default-plate.png",
+      "size": 21138,
+      "hash": "d7a085b0ba8668df9a1546cde311a426f574b8e4"
+    },
+    {
+      "path": "app/images/default-restaurant-profile.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/default-restaurant-profile.png",
+      "size": 11183,
+      "hash": "0f719a54ebb7b9372c00e354aec32b498946ff4a"
+    },
+    {
+      "path": "app/images/default-restaurant.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/default-restaurant.png",
+      "size": 8591,
+      "hash": "0f3c1ff3be92aad8067a5988cf53a25c3d275fe1"
+    },
+    {
+      "path": "app/images/default_addition.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/default_addition.png",
+      "size": 23510,
+      "hash": "b3639e71f626fac3b87a83840dee62bfb788ea7b"
+    },
+    {
+      "path": "app/images/delivery-of-item.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/delivery-of-item.png",
+      "size": 16352,
+      "hash": "560c79fcc9623629a65183b446ecff136e795018"
+    },
+    {
+      "path": "app/images/diners.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/diners.png",
+      "size": 2434,
+      "hash": "81e2140f2394677476e00e5a42da6c49fe1cdb73"
+    },
+    {
+      "path": "app/images/employees.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/employees.png",
+      "size": 27828,
+      "hash": "5058102b1605e3656576a8128e69b92462229bf8"
+    },
+    {
+      "path": "app/images/exit.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/exit.png",
+      "size": 5738,
+      "hash": "d827c202708f020089cf8569203ce1fbf28f0819"
+    },
+    {
+      "path": "app/images/favicon.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/favicon.png",
+      "size": 541,
+      "hash": "0392c01b2d757a5a7b025d119853984247790838"
+    },
+    {
+      "path": "app/images/garnish-food.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/garnish-food.png",
+      "size": 20760,
+      "hash": "1e4e5ae5c230544dc7e58d8699a3883a5bd83625"
+    },
+    {
+      "path": "app/images/iphone.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/iphone.png",
+      "size": 34390,
+      "hash": "978b49fde12f8c66b8f3018dfdd2e4e94e41e291"
+    },
+    {
+      "path": "app/images/item.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/item.png",
+      "size": 13073,
+      "hash": "b254eb537a9802ce9c09c20f3b0c6d3ba210b7dd"
+    },
+    {
+      "path": "app/images/items-enabled.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/items-enabled.png",
+      "size": 17978,
+      "hash": "2b36bb61783411fa8388eda7287dce67bd33cfaf"
+    },
+    {
+      "path": "app/images/items.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/items.png",
+      "size": 24721,
+      "hash": "a768d60f8857a885158ed4e4cffa1ea1268a66cf"
+    },
+    {
+      "path": "app/images/landing-1.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/landing-1.png",
+      "size": 1143371,
+      "hash": "47b50145f513292b4b067ff3adbbd3fdaf9875dc"
+    },
+    {
+      "path": "app/images/landing-2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/landing-2.png",
+      "size": 1605874,
+      "hash": "e52f1601183412a2db57dcd76570bc3c170ff629"
+    },
+    {
+      "path": "app/images/landing-3.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/landing-3.png",
+      "size": 1487490,
+      "hash": "ddd60cbc8ec6b3963be342dfb6e016887240e3f2"
+    },
+    {
+      "path": "app/images/landing-pc.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/landing-pc.png",
+      "size": 119945,
+      "hash": "5ba3118a553caf5c49185edf54949690c5e82b88"
+    },
+    {
+      "path": "app/images/logo_iurest.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo_iurest.png",
+      "size": 2370,
+      "hash": "5a3e66fcf8b653e929f984d0b2b971454985a21d"
+    },
+    {
+      "path": "app/images/logo_iurest_190_x_60.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo_iurest_190_x_60.png",
+      "size": 3033,
+      "hash": "ce38653ad74b2fde0907764d5deb90061f5a3dc9"
+    },
+    {
+      "path": "app/images/logo_iurest_white.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo_iurest_white.png",
+      "size": 1951,
+      "hash": "90da577111e57426c309c170e23948a0842c77cb"
+    },
+    {
+      "path": "app/images/mastercard.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/mastercard.png",
+      "size": 1990,
+      "hash": "133e4d3f8a1d554180e499c5c40c54b4910c4407"
+    },
+    {
+      "path": "app/images/my-orders.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/my-orders.png",
+      "size": 8215,
+      "hash": "964dcb84688bc9e358968469a6427a42532303a7"
+    },
+    {
+      "path": "app/images/obtener-aplicacion.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/obtener-aplicacion.jpg",
+      "size": 54696,
+      "hash": "8ebc0fdf188ec7747b393eb02b8330daa1c79e23"
+    },
+    {
+      "path": "app/images/order-received.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/order-received.png",
+      "size": 42323,
+      "hash": "62243afd22c36cfc92b0bf3d493cc5907dbae20d"
+    },
+    {
+      "path": "app/images/orders-detail.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/orders-detail.png",
+      "size": 14361,
+      "hash": "85a8f16fbfb23cf49845c1029720452b55413a27"
+    },
+    {
+      "path": "app/images/orders-today.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/orders-today.png",
+      "size": 34258,
+      "hash": "130208ca93d6d7217cd464c2214a51e6e56b9b5c"
+    },
+    {
+      "path": "app/images/orders-transfer.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/orders-transfer.png",
+      "size": 11226,
+      "hash": "3a2ed6f2e5a03f5f14f5aebc6adaa8fdd5dfea40"
+    },
+    {
+      "path": "app/images/orders.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/orders.png",
+      "size": 9839,
+      "hash": "e346efc0ff2fb27df88cf6ff932a02c1e0033679"
+    },
+    {
+      "path": "app/images/others-orders.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/others-orders.png",
+      "size": 8203,
+      "hash": "0fe13d690d1d7c89c8b81bd802ce376e1efbdf32"
+    },
+    {
+      "path": "app/images/payment-desabled.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/payment-desabled.png",
+      "size": 17549,
+      "hash": "cdb7c03ed55d91c7bf36d9d82e3cf6b4162e547e"
+    },
+    {
+      "path": "app/images/payment-history.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/payment-history.png",
+      "size": 12241,
+      "hash": "59f734c99cf0380c03b1ca751227ef432c328c60"
+    },
+    {
+      "path": "app/images/payment-online.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/payment-online.png",
+      "size": 11407,
+      "hash": "3d3d9e1eb8d93ab812283a690408599bb3e3bd10"
+    },
+    {
+      "path": "app/images/payments-history.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/payments-history.png",
+      "size": 17972,
+      "hash": "afad09ec42c148ddb19d6acf07f9a4876a8b88ff"
+    },
+    {
+      "path": "app/images/payments.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/payments.png",
+      "size": 9862,
+      "hash": "3daf8eeceec81f427b7eb37d513ddd79c1f72d41"
+    },
+    {
+      "path": "app/images/psd-en.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/psd-en.png",
+      "size": 23334,
+      "hash": "ee887418fe1dab6e9731fbc57acd2afd7fa8fcd5"
+    },
+    {
+      "path": "app/images/psd-es.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/psd-es.png",
+      "size": 24557,
+      "hash": "b3ccc7ea6f8f1ffc16996c768d468daa729e7a5a"
+    },
+    {
+      "path": "app/images/reactivate-restaurant.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/reactivate-restaurant.png",
+      "size": 14233,
+      "hash": "ac17ad96c6caf7c451bafc04377bfb4abea68c01"
+    },
+    {
+      "path": "app/images/restaurante.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/restaurante.png",
+      "size": 14141,
+      "hash": "c721543de6edc17653863423a765d21c803e34ee"
+    },
+    {
+      "path": "app/images/restaurantes.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/restaurantes.png",
+      "size": 14288,
+      "hash": "57491fec5b89dfb9c1a8de2fbd20e1c9ae127852"
+    },
+    {
+      "path": "app/images/reward.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/reward.png",
+      "size": 17231,
+      "hash": "aa89483c4f98298b898321ef7f157ed5b3c8a645"
+    },
+    {
+      "path": "app/images/sections.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/sections.png",
+      "size": 13545,
+      "hash": "7a481277312495bd96397c4ba0b70ffb41dd3905"
+    },
+    {
+      "path": "app/images/signin.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/signin.png",
+      "size": 1113546,
+      "hash": "4d1e18c783a8fa2cfc605036803c341ba20193c4"
+    },
+    {
+      "path": "app/images/signup.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/signup.png",
+      "size": 1282876,
+      "hash": "98910505b9137379e74344ebbf7f0f084c2262f8"
+    },
+    {
+      "path": "app/images/step-1.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/step-1.png",
+      "size": 4694,
+      "hash": "36f2027cf443318b8334374335c0296463d2fd6b"
+    },
+    {
+      "path": "app/images/step-2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/step-2.png",
+      "size": 10736,
+      "hash": "4262716995e6c91580d22a8fbbf22cc6a67b83fb"
+    },
+    {
+      "path": "app/images/step-3.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/step-3.png",
+      "size": 10999,
+      "hash": "fe93c11f4b2f32d9e53f9f0435e67a3551bf4585"
+    },
+    {
+      "path": "app/images/step-4.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/step-4.png",
+      "size": 11043,
+      "hash": "86792bcfcc002581e8362f0e02977957fe0b877e"
+    },
+    {
+      "path": "app/images/step-5.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/step-5.png",
+      "size": 8872,
+      "hash": "7a711746744f3afe0ba90ddc0bbc90455c8f1c8e"
+    },
+    {
+      "path": "app/images/subcategories.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/subcategories.png",
+      "size": 19828,
+      "hash": "f370c5dfc5a8903858c7c8b54648d62866768923"
+    },
+    {
+      "path": "app/images/tables.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/tables.png",
+      "size": 19962,
+      "hash": "b1732593125627f6674d5b1827eaababdb863611"
+    },
+    {
+      "path": "app/images/tienes-un-restaurante.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/tienes-un-restaurante.jpg",
+      "size": 77946,
+      "hash": "0bfe1904501a95ef24aff6a476329f706b769b07"
+    },
+    {
+      "path": "app/images/trn_approved.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/trn_approved.png",
+      "size": 5518,
+      "hash": "381c50d7ff40ce10ebe710e094fd66de99fbf838"
+    },
+    {
+      "path": "app/images/trn_declined.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/trn_declined.png",
+      "size": 6351,
+      "hash": "2c78508c45ddb04d68eb19ee638d46bb5a4b8fbc"
+    },
+    {
+      "path": "app/images/trn_pending.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/trn_pending.png",
+      "size": 14998,
+      "hash": "169b9f63132be4103485c7ad405e9c66bb8929b3"
+    },
+    {
+      "path": "app/images/user_default_image.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/user_default_image.png",
+      "size": 1688,
+      "hash": "332521c16bc871f4d305ad18f2609758ad7076c7"
+    },
+    {
+      "path": "app/images/visa.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/visa.png",
+      "size": 2509,
+      "hash": "fe379ceda2aaa4bbd002888c577d6b971dfd3685"
+    },
+    {
+      "path": "app/images/waiter-call.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/waiter-call.png",
+      "size": 10547,
+      "hash": "7c2d7b9bb3270b3f0a1cc03b5f37e1a955c2a053"
+    },
+    {
+      "path": "app/images/waiter.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/waiter.png",
+      "size": 23546,
+      "hash": "e0689c633a35a5189706ef68f3eafda90a2f0de8"
+    },
+    {
+      "path": "app/images/warning.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/warning.png",
+      "size": 2707,
+      "hash": "e7bf9ef5969e84625af10e48924201c1439ed0b2"
+    },
+    {
+      "path": "app/js/animate.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/js/animate.js",
+      "size": 1252,
+      "hash": "4baf1cdef6da7098dd0342bf3319d785dc772fe7"
+    },
+    {
+      "path": "app/scss/_buttons.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_buttons.scss",
+      "size": 352,
+      "hash": "619d562d656a94b12b04e3f310ece4dc9dbcf689"
+    },
+    {
+      "path": "app/scss/_callouts.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_callouts.scss",
+      "size": 955,
+      "hash": "e93b4b3164c0681d2fa3c781401f6f06c3dd220e"
+    },
+    {
+      "path": "app/scss/_cards.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_cards.scss",
+      "size": 953,
+      "hash": "9879e617cba7e0003a4e095d70871879c229cc52"
+    },
+    {
+      "path": "app/scss/_colors.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_colors.scss",
+      "size": 1126,
+      "hash": "58a4d9cfb5794d5171d1fc7dfe99d7bcbf920370"
+    },
+    {
+      "path": "app/scss/_flex.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_flex.scss",
+      "size": 1669,
+      "hash": "362b61a8fa20c228a795525dae16942aab7be42e"
+    },
+    {
+      "path": "app/scss/_forms.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_forms.scss",
+      "size": 166,
+      "hash": "531db879ddecef00c41b34fd79f14543982020e0"
+    },
+    {
+      "path": "app/scss/_materialize-css.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_materialize-css.scss",
+      "size": 2526,
+      "hash": "7d41ae97a215be8e04fb1b3d1b8d2b710d5366f8"
+    },
+    {
+      "path": "app/scss/_mixins.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_mixins.scss",
+      "size": 482,
+      "hash": "b1c245b213668c4ade841be630b33e215200c1cc"
+    },
+    {
+      "path": "app/scss/_navigation.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_navigation.scss",
+      "size": 10482,
+      "hash": "10c6b1c44b596600c5e81761546d1825ea3e820c"
+    },
+    {
+      "path": "app/scss/_tables.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_tables.scss",
+      "size": 2202,
+      "hash": "3f768a016029cf6e8fea365579bfc646c9b49006"
+    },
+    {
+      "path": "app/scss/_typography.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_typography.scss",
+      "size": 355,
+      "hash": "c70c942a8781caa3d5de5988cf06f5448fa5c0a9"
+    },
+    {
+      "path": "app/scss/_utils.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_utils.scss",
+      "size": 82,
+      "hash": "990e916a3892a0a380102092528b68caf83cdfe2"
+    },
+    {
+      "path": "app/scss/_variables.scss",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/scss/_variables.scss",
+      "size": 3413,
+      "hash": "af3a64b8df9f13d88020c5e1a6d8b6571fb7e6f7"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "3d15bca33dec523bba4d8a4e7959f762b2979c05"
+    },
+    {
+      "path": "body.html",
+      "where": "internal",
+      "type": "body",
+      "hash": "2632a0ab71ebcf7ffc623e81989df26d5e9521e2"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Ignore node modules project
+bundle/programs/server/npm/node_modules/**
