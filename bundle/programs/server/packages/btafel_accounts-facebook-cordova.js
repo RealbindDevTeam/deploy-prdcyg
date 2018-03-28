@@ -179,7 +179,6 @@ if (Meteor.isClient) {
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-Package['btafel:accounts-facebook-cordova'] = {};
+Package._define("btafel:accounts-facebook-cordova");
 
 })();

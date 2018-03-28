@@ -228,11 +228,7 @@ SSR.compileTemplate = function(name, content, options) {
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-(function (pkg, symbols) {
-  for (var s in symbols)
-    (s in pkg) || (pkg[s] = symbols[s]);
-})(Package['meteorhacks:ssr'] = {}, {
+Package._define("meteorhacks:ssr", {
   Template: Template,
   SSR: SSR
 });

@@ -40,34 +40,40 @@
       "path": "packages/ecmascript.js"
     },
     {
-      "path": "packages/underscore.js"
-    },
-    {
-      "path": "packages/base64.js"
-    },
-    {
-      "node_modules": "npm/node_modules/meteor/es5-shim/node_modules",
-      "path": "packages/es5-shim.js"
+      "node_modules": "npm/node_modules/meteor/babel-runtime/node_modules",
+      "path": "packages/babel-runtime.js"
     },
     {
       "node_modules": "npm/node_modules/meteor/promise/node_modules",
       "path": "packages/promise.js"
     },
     {
-      "node_modules": "npm/node_modules/meteor/babel-runtime/node_modules",
-      "path": "packages/babel-runtime.js"
+      "path": "packages/url.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/http/node_modules",
+      "path": "packages/http.js"
+    },
+    {
+      "path": "packages/dynamic-import.js"
+    },
+    {
+      "sourceMap": "packages/base64.js.map",
+      "path": "packages/base64.js"
     },
     {
       "sourceMap": "packages/ejson.js.map",
       "path": "packages/ejson.js"
     },
     {
+      "sourceMap": "packages/diff-sequence.js.map",
       "path": "packages/diff-sequence.js"
     },
     {
       "path": "packages/geojson-utils.js"
     },
     {
+      "sourceMap": "packages/id-map.js.map",
       "path": "packages/id-map.js"
     },
     {
@@ -75,9 +81,11 @@
       "path": "packages/random.js"
     },
     {
+      "sourceMap": "packages/mongo-id.js.map",
       "path": "packages/mongo-id.js"
     },
     {
+      "sourceMap": "packages/ordered-dict.js.map",
       "path": "packages/ordered-dict.js"
     },
     {
@@ -88,16 +96,28 @@
       "path": "packages/minimongo.js"
     },
     {
+      "sourceMap": "packages/check.js.map",
       "path": "packages/check.js"
     },
     {
+      "sourceMap": "packages/retry.js.map",
       "path": "packages/retry.js"
     },
     {
+      "sourceMap": "packages/callback-hook.js.map",
       "path": "packages/callback-hook.js"
     },
     {
+      "sourceMap": "packages/ddp-common.js.map",
       "path": "packages/ddp-common.js"
+    },
+    {
+      "path": "packages/reload.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/socket-stream-client/node_modules",
+      "sourceMap": "packages/socket-stream-client.js.map",
+      "path": "packages/socket-stream-client.js"
     },
     {
       "node_modules": "npm/node_modules/meteor/ddp-client/node_modules",
@@ -105,19 +125,29 @@
       "path": "packages/ddp-client.js"
     },
     {
+      "path": "packages/underscore.js"
+    },
+    {
+      "sourceMap": "packages/rate-limit.js.map",
       "path": "packages/rate-limit.js"
     },
     {
       "path": "packages/ddp-rate-limiter.js"
     },
     {
+      "path": "packages/ecmascript-runtime-client.js"
+    },
+    {
       "node_modules": "npm/node_modules/meteor/logging/node_modules",
+      "sourceMap": "packages/logging.js.map",
       "path": "packages/logging.js"
     },
     {
+      "sourceMap": "packages/routepolicy.js.map",
       "path": "packages/routepolicy.js"
     },
     {
+      "node_modules": "npm/node_modules/meteor/boilerplate-generator/node_modules",
       "sourceMap": "packages/boilerplate-generator.js.map",
       "path": "packages/boilerplate-generator.js"
     },
@@ -160,6 +190,19 @@
       "path": "packages/standard-minifier-js.js"
     },
     {
+      "node_modules": "npm/node_modules/meteor/server-render/node_modules",
+      "sourceMap": "packages/server-render.js.map",
+      "path": "packages/server-render.js"
+    },
+    {
+      "sourceMap": "packages/shim-common.js.map",
+      "path": "packages/shim-common.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/es5-shim/node_modules",
+      "path": "packages/es5-shim.js"
+    },
+    {
       "sourceMap": "packages/shell-server.js.map",
       "path": "packages/shell-server.js"
     },
@@ -198,9 +241,6 @@
       "path": "packages/localstorage.js"
     },
     {
-      "path": "packages/url.js"
-    },
-    {
       "path": "packages/oauth.js",
       "assets": {
         "end_of_popup_response.html": "assets/packages/oauth/end_of_popup_response.html",
@@ -211,17 +251,13 @@
       "path": "packages/accounts-oauth.js"
     },
     {
-      "node_modules": "npm/node_modules/meteor/http/node_modules",
-      "sourceMap": "packages/http.js.map",
-      "path": "packages/http.js"
-    },
-    {
       "path": "packages/oauth1.js"
     },
     {
       "path": "packages/twitter-oauth.js"
     },
     {
+      "sourceMap": "packages/accounts-twitter.js.map",
       "path": "packages/accounts-twitter.js"
     },
     {
@@ -232,6 +268,7 @@
       "path": "packages/google-oauth.js"
     },
     {
+      "sourceMap": "packages/accounts-google.js.map",
       "path": "packages/accounts-google.js"
     },
     {
@@ -298,24 +335,24 @@
       "path": "packages/livedata.js"
     },
     {
-      "sourceMap": "packages/dynamic-import.js.map",
-      "path": "packages/dynamic-import.js"
-    },
-    {
       "path": "packages/hot-code-push.js"
     },
     {
       "path": "packages/launch-screen.js"
     },
     {
+      "sourceMap": "packages/autoupdate.js.map",
       "path": "packages/autoupdate.js"
     },
     {
-      "path": "packages/reload.js"
-    },
-    {
       "node_modules": "npm/node_modules",
-      "path": "packages/global-imports.js"
+      "path": "app/global-imports.js",
+      "assets": {
+        "charge-soon-email.html": "assets/app/charge-soon-email.html",
+        "expire-soon-email.html": "assets/app/expire-soon-email.html",
+        "html-email.html": "assets/app/html-email.html",
+        "rest-expired-email.html": "assets/app/rest-expired-email.html"
+      }
     },
     {
       "node_modules": "npm/node_modules",

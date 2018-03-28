@@ -183,11 +183,7 @@ Email.send = function (options) {
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-(function (pkg, symbols) {
-  for (var s in symbols)
-    (s in pkg) || (pkg[s] = symbols[s]);
-})(Package.email = {}, {
+Package._define("email", {
   Email: Email,
   EmailInternals: EmailInternals,
   EmailTest: EmailTest

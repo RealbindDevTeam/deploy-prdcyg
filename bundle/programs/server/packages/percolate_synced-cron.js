@@ -362,11 +362,7 @@ SyncedCron._laterSetTimeout = function(fn, sched) {
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-(function (pkg, symbols) {
-  for (var s in symbols)
-    (s in pkg) || (pkg[s] = symbols[s]);
-})(Package['percolate:synced-cron'] = {}, {
+Package._define("percolate:synced-cron", {
   SyncedCron: SyncedCron
 });
 

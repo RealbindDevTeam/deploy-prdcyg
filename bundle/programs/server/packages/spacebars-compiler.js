@@ -1368,11 +1368,7 @@ SpacebarsCompiler._beautify = function (code) {
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-(function (pkg, symbols) {
-  for (var s in symbols)
-    (s in pkg) || (pkg[s] = symbols[s]);
-})(Package['spacebars-compiler'] = {}, {
+Package._define("spacebars-compiler", {
   SpacebarsCompiler: SpacebarsCompiler
 });
 

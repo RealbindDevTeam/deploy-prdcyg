@@ -3,7 +3,6 @@
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-Package['accounts-ui'] = {};
+Package._define("accounts-ui");
 
 })();

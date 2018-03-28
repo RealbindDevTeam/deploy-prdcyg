@@ -3,7 +3,6 @@
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-Package.coffeescript = {};
+Package._define("coffeescript");
 
 })();

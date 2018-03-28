@@ -62,7 +62,7 @@ Object.keys(methods).forEach(function (key) {
 
 //////////////////////////////////////////////////////////////////////////////
 //                                                                          //
-// ../../.0.9.3.1gbbi4p.qxloi++os+web.browser+web.cordova/npm/node_modules/ //
+// node_modules/meteor/npm-bcrypt/node_modules/bcryptjs/package.json        //
 //                                                                          //
 //////////////////////////////////////////////////////////////////////////////
                                                                             //
@@ -118,14 +118,10 @@ module.exports = require("./dist/bcrypt.js");
     ".json"
   ]
 });
-var exports = require("./node_modules/meteor/npm-bcrypt/wrapper.js");
+var exports = require("/node_modules/meteor/npm-bcrypt/wrapper.js");
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-(function (pkg, symbols) {
-  for (var s in symbols)
-    (s in pkg) || (pkg[s] = symbols[s]);
-})(Package['npm-bcrypt'] = exports, {
+Package._define("npm-bcrypt", exports, {
   NpmModuleBcrypt: NpmModuleBcrypt
 });
 

@@ -1,0 +1,2681 @@
+{
+  "minifier": {
+    "name": "standard-minifier-js",
+    "version": "2.3.2"
+  },
+  "totalMinifiedBytes": 7203676,
+  "totalMinifiedGzipBytes": 1349334,
+  "minifiedBytesByPackage": {
+    "packages/meteor.js": 8958,
+    "packages/meteor-base.js": 31,
+    "packages/mobile-experience.js": 37,
+    "packages/babel-compiler.js": 34,
+    "packages/ecmascript.js": 30,
+    "packages/modules-runtime.js": 4023,
+    "packages/modules.js": [
+      2978965,
+      {
+        "node_modules": {
+          "meteor": {
+            "modules": {
+              "client.js": 124,
+              "css.js": 261,
+              "install-packages.js": 2539,
+              "process.js": 347,
+              "reify.js": 149,
+              "stubs.js": 97,
+              "node_modules": {
+                "reify": {
+                  "lib": {
+                    "runtime": {
+                      "index.js": 906,
+                      "utils.js": 1217,
+                      "entry.js": 3349
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "typescript-collections": {
+            "dist": {
+              "lib": {
+                "BSTree.js": 3568,
+                "Bag.js": 1569,
+                "Dictionary.js": 1424,
+                "FactoryDictionary.js": 770,
+                "Heap.js": 1629,
+                "LinkedDictionary.js": 2079,
+                "LinkedList.js": 3079,
+                "MultiDictionary.js": 1274,
+                "MultiRootTree.js": 6225,
+                "PriorityQueue.js": 765,
+                "Queue.js": 768,
+                "Set.js": 1315,
+                "Stack.js": 689,
+                "arrays.js": 1013,
+                "index.js": 786,
+                "util.js": 1010
+              }
+            },
+            "package.json": 123
+          },
+          "@agm": {
+            "core": {
+              "services": {
+                "managers": {
+                  "circle-manager.js": 2235,
+                  "data-layer-manager.js": 1950,
+                  "info-window-manager.js": 2021,
+                  "kml-layer-manager.js": 1167,
+                  "marker-manager.js": 2242,
+                  "polygon-manager.js": 1485,
+                  "polyline-manager.js": 1602
+                },
+                "maps-api-loader": {
+                  "lazy-maps-api-loader.js": 2380,
+                  "maps-api-loader.js": 254,
+                  "noop-maps-api-loader.js": 332
+                },
+                "google-maps-api-wrapper.js": 2765
+              },
+              "directives": {
+                "circle.js": 3813,
+                "data-layer.js": 1563,
+                "info-window.js": 2364,
+                "kml-layer.js": 2227,
+                "map.js": 7960,
+                "map.ngfactory.js": 3574,
+                "marker.js": 3461,
+                "polygon.js": 3537,
+                "polyline-point.js": 603,
+                "polyline.js": 3873
+              },
+              "utils": {
+                "browser-globals.js": 344
+              },
+              "core.module.js": 1048,
+              "directives.js": 1217,
+              "index.js": 533,
+              "services.js": 1995,
+              "package.json": 58
+            }
+          },
+          "@angular": {
+            "material": {
+              "button": {
+                "typings": {
+                  "index.ngfactory.js": 13524
+                },
+                "package.json": 91
+              },
+              "button-toggle": {
+                "typings": {
+                  "index.ngfactory.js": 4851
+                },
+                "package.json": 105
+              },
+              "card": {
+                "typings": {
+                  "index.ngfactory.js": 5008
+                },
+                "package.json": 87
+              },
+              "checkbox": {
+                "typings": {
+                  "index.ngfactory.js": 11378
+                },
+                "package.json": 95
+              },
+              "chips": {
+                "typings": {
+                  "index.ngfactory.js": 4054
+                },
+                "package.json": 89
+              },
+              "core": {
+                "typings": {
+                  "index.ngfactory.js": 9103
+                },
+                "package.json": 87
+              },
+              "datepicker": {
+                "typings": {
+                  "index.ngfactory.js": 24598
+                },
+                "package.json": 99
+              },
+              "dialog": {
+                "typings": {
+                  "index.ngfactory.js": 6295
+                },
+                "package.json": 91
+              },
+              "expansion": {
+                "typings": {
+                  "index.ngfactory.js": 8563
+                },
+                "package.json": 97
+              },
+              "form-field": {
+                "typings": {
+                  "index.ngfactory.js": 11672
+                },
+                "package.json": 99
+              },
+              "icon": {
+                "typings": {
+                  "index.ngfactory.js": 1609
+                },
+                "package.json": 87
+              },
+              "list": {
+                "typings": {
+                  "index.ngfactory.js": 31515
+                },
+                "package.json": 87
+              },
+              "menu": {
+                "typings": {
+                  "index.ngfactory.js": 8757
+                },
+                "package.json": 87
+              },
+              "progress-bar": {
+                "typings": {
+                  "index.ngfactory.js": 6347
+                },
+                "package.json": 103
+              },
+              "progress-spinner": {
+                "typings": {
+                  "index.ngfactory.js": 8867
+                },
+                "package.json": 111
+              },
+              "radio": {
+                "typings": {
+                  "index.ngfactory.js": 6170
+                },
+                "package.json": 89
+              },
+              "select": {
+                "typings": {
+                  "index.ngfactory.js": 11520
+                },
+                "package.json": 91
+              },
+              "sidenav": {
+                "typings": {
+                  "index.ngfactory.js": 15435
+                },
+                "package.json": 93
+              },
+              "slide-toggle": {
+                "typings": {
+                  "index.ngfactory.js": 7478
+                },
+                "package.json": 103
+              },
+              "snack-bar": {
+                "typings": {
+                  "index.ngfactory.js": 6648
+                },
+                "package.json": 97
+              },
+              "stepper": {
+                "typings": {
+                  "index.ngfactory.js": 19532
+                },
+                "package.json": 93
+              },
+              "tabs": {
+                "typings": {
+                  "index.ngfactory.js": 18521
+                },
+                "package.json": 87
+              },
+              "toolbar": {
+                "typings": {
+                  "index.ngfactory.js": 2097
+                },
+                "package.json": 93
+              },
+              "tooltip": {
+                "typings": {
+                  "index.ngfactory.js": 4867
+                },
+                "package.json": 93
+              },
+              "package.json": 99,
+              "bundles": {
+                "material.umd.js": 438374,
+                "material-tooltip.umd.js": 11556,
+                "material-core.umd.js": 26010,
+                "material-snack-bar.umd.js": 11097,
+                "material-dialog.umd.js": 14243,
+                "material-datepicker.umd.js": 40670,
+                "material-button.umd.js": 14537,
+                "material-icon.umd.js": 9838,
+                "material-form-field.umd.js": 14606,
+                "material-input.umd.js": 8628,
+                "material-progress-bar.umd.js": 6202,
+                "material-menu.umd.js": 18643,
+                "material-list.umd.js": 35619,
+                "material-toolbar.umd.js": 3390,
+                "material-sidenav.umd.js": 20530,
+                "material-card.umd.js": 7021,
+                "material-progress-spinner.umd.js": 12647,
+                "material-select.umd.js": 23509,
+                "material-slide-toggle.umd.js": 9888,
+                "material-checkbox.umd.js": 14857,
+                "material-tabs.umd.js": 30016,
+                "material-chips.umd.js": 21565,
+                "material-expansion.umd.js": 10233,
+                "material-stepper.umd.js": 14639,
+                "material-radio.umd.js": 12204,
+                "material-button-toggle.umd.js": 10375,
+                "material-grid-list.umd.js": 12853,
+                "material-slider.umd.js": 21028
+              },
+              "input": {
+                "package.json": 89
+              },
+              "grid-list": {
+                "package.json": 97
+              },
+              "slider": {
+                "package.json": 91
+              }
+            },
+            "platform-browser": {
+              "package.json": 110,
+              "bundles": {
+                "platform-browser.umd.js": 42046,
+                "platform-browser-animations.umd.js": 8955
+              },
+              "animations": {
+                "package.json": 115
+              }
+            },
+            "common": {
+              "package.json": 90,
+              "bundles": {
+                "common.umd.js": 55003,
+                "common-http.umd.js": 20281
+              },
+              "http": {
+                "package.json": 83
+              }
+            },
+            "core": {
+              "package.json": 86,
+              "bundles": {
+                "core.umd.js": 116988
+              }
+            },
+            "forms": {
+              "package.json": 88,
+              "bundles": {
+                "forms.umd.js": 69367
+              }
+            },
+            "flex-layout": {
+              "package.json": 116,
+              "bundles": {
+                "flex-layout.umd.js": 78759
+              }
+            },
+            "router": {
+              "package.json": 90,
+              "bundles": {
+                "router.umd.js": 73806
+              }
+            },
+            "animations": {
+              "package.json": 98,
+              "bundles": {
+                "animations.umd.js": 5500,
+                "animations-browser.umd.js": 62609
+              },
+              "browser": {
+                "package.json": 97
+              }
+            },
+            "cdk": {
+              "bidi": {
+                "package.json": 77
+              },
+              "bundles": {
+                "cdk-bidi.umd.js": 1766,
+                "cdk-coercion.umd.js": 532,
+                "cdk-platform.umd.js": 1994,
+                "cdk-keycodes.umd.js": 605,
+                "cdk-a11y.umd.js": 22980,
+                "cdk-overlay.umd.js": 30837,
+                "cdk-scrolling.umd.js": 5521,
+                "cdk-portal.umd.js": 6895,
+                "cdk-collections.umd.js": 3420,
+                "cdk-observers.umd.js": 2002,
+                "cdk-accordion.umd.js": 2636,
+                "cdk-layout.umd.js": 3812,
+                "cdk-table.umd.js": 11046,
+                "cdk-stepper.umd.js": 6911
+              },
+              "coercion": {
+                "package.json": 85
+              },
+              "platform": {
+                "package.json": 85
+              },
+              "keycodes": {
+                "package.json": 85
+              },
+              "a11y": {
+                "package.json": 77
+              },
+              "overlay": {
+                "package.json": 83
+              },
+              "scrolling": {
+                "package.json": 87
+              },
+              "portal": {
+                "package.json": 81
+              },
+              "collections": {
+                "package.json": 91
+              },
+              "observers": {
+                "package.json": 87
+              },
+              "accordion": {
+                "package.json": 87
+              },
+              "layout": {
+                "package.json": 81
+              },
+              "table": {
+                "package.json": 79
+              },
+              "stepper": {
+                "package.json": 83
+              }
+            }
+          },
+          "ngx-page-scroll": {
+            "src": {
+              "ngx-page-scroll-config.js": 770,
+              "ngx-page-scroll-instance.js": 7097,
+              "ngx-page-scroll-util.service.js": 653,
+              "ngx-page-scroll.module.js": 483,
+              "ngx-page-scroll.service.js": 3912,
+              "ngx-page-scroll.directive.js": 3089
+            },
+            "package.json": 97,
+            "bundles": {
+              "ngx-page-scroll.umd.js": 14533
+            }
+          },
+          "tslib": {
+            "tslib.js": 5156,
+            "package.json": 65
+          },
+          "meteor-rxjs": {
+            "package.json": 88,
+            "dist": {
+              "bundles": {
+                "index.umd.js": 7257
+              }
+            }
+          },
+          "rxjs": {
+            "package.json": 63,
+            "Rx.js": 5672,
+            "Subject.js": 2523,
+            "Observable.js": 1659,
+            "util": {
+              "root.js": 311,
+              "toSubscriber.js": 293,
+              "isFunction.js": 83,
+              "isArray.js": 101,
+              "isObject.js": 89,
+              "tryCatch.js": 191,
+              "errorObject.js": 48,
+              "UnsubscriptionError.js": 551,
+              "pipe.js": 266,
+              "noop.js": 50,
+              "ObjectUnsubscribedError.js": 425,
+              "isScheduler.js": 97,
+              "subscribeToResult.js": 1307,
+              "isArrayLike.js": 90,
+              "isPromise.js": 123,
+              "identity.js": 63,
+              "isNumeric.js": 124,
+              "isDate.js": 89,
+              "assign.js": 307,
+              "Set.js": 454,
+              "ArgumentOutOfRangeError.js": 427,
+              "EmptyError.js": 403,
+              "Map.js": 98,
+              "MapPolyfill.js": 695,
+              "FastMap.js": 433,
+              "not.js": 135,
+              "Immediate.js": 3764,
+              "TimeoutError.js": 404,
+              "applyMixins.js": 213,
+              "AnimationFrame.js": 1018
+            },
+            "Subscriber.js": 3315,
+            "Subscription.js": 1962,
+            "Observer.js": 115,
+            "symbol": {
+              "rxSubscriber.js": 198,
+              "observable.js": 266,
+              "iterator.js": 512
+            },
+            "SubjectSubscription.js": 609,
+            "add": {
+              "observable": {
+                "bindCallback.js": 131,
+                "bindNodeCallback.js": 143,
+                "combineLatest.js": 134,
+                "concat.js": 113,
+                "defer.js": 110,
+                "empty.js": 110,
+                "forkJoin.js": 119,
+                "from.js": 107,
+                "fromEvent.js": 122,
+                "fromEventPattern.js": 143,
+                "fromPromise.js": 128,
+                "generate.js": 119,
+                "if.js": 102,
+                "interval.js": 119,
+                "merge.js": 110,
+                "race.js": 107,
+                "never.js": 110,
+                "of.js": 101,
+                "onErrorResumeNext.js": 146,
+                "pairs.js": 110,
+                "range.js": 110,
+                "using.js": 110,
+                "throw.js": 111,
+                "timer.js": 110,
+                "zip.js": 104,
+                "dom": {
+                  "ajax.js": 117,
+                  "webSocket.js": 132
+                }
+              },
+              "operator": {
+                "buffer.js": 121,
+                "bufferCount.js": 136,
+                "bufferTime.js": 133,
+                "bufferToggle.js": 139,
+                "bufferWhen.js": 133,
+                "catch.js": 158,
+                "combineAll.js": 133,
+                "combineLatest.js": 142,
+                "concat.js": 121,
+                "concatAll.js": 130,
+                "concatMap.js": 130,
+                "concatMapTo.js": 136,
+                "count.js": 118,
+                "dematerialize.js": 142,
+                "debounce.js": 127,
+                "debounceTime.js": 139,
+                "defaultIfEmpty.js": 145,
+                "delay.js": 118,
+                "delayWhen.js": 130,
+                "distinct.js": 127,
+                "distinctUntilChanged.js": 163,
+                "distinctUntilKeyChanged.js": 172,
+                "do.js": 143,
+                "exhaust.js": 124,
+                "exhaustMap.js": 133,
+                "expand.js": 121,
+                "elementAt.js": 130,
+                "filter.js": 121,
+                "finally.js": 168,
+                "find.js": 115,
+                "findIndex.js": 130,
+                "first.js": 118,
+                "groupBy.js": 124,
+                "ignoreElements.js": 145,
+                "isEmpty.js": 124,
+                "audit.js": 118,
+                "auditTime.js": 130,
+                "last.js": 115,
+                "let.js": 159,
+                "every.js": 118,
+                "map.js": 112,
+                "mapTo.js": 118,
+                "materialize.js": 136,
+                "max.js": 112,
+                "merge.js": 118,
+                "mergeAll.js": 127,
+                "mergeMap.js": 169,
+                "mergeMapTo.js": 179,
+                "mergeScan.js": 130,
+                "min.js": 112,
+                "multicast.js": 130,
+                "observeOn.js": 130,
+                "onErrorResumeNext.js": 154,
+                "pairwise.js": 127,
+                "partition.js": 130,
+                "pluck.js": 118,
+                "publish.js": 124,
+                "publishBehavior.js": 148,
+                "publishReplay.js": 142,
+                "publishLast.js": 136,
+                "race.js": 115,
+                "reduce.js": 121,
+                "repeat.js": 121,
+                "repeatWhen.js": 133,
+                "retry.js": 118,
+                "retryWhen.js": 130,
+                "sample.js": 121,
+                "sampleTime.js": 133,
+                "scan.js": 115,
+                "sequenceEqual.js": 142,
+                "share.js": 118,
+                "shareReplay.js": 136,
+                "single.js": 121,
+                "skip.js": 115,
+                "skipLast.js": 127,
+                "skipUntil.js": 130,
+                "skipWhile.js": 130,
+                "startWith.js": 130,
+                "subscribeOn.js": 136,
+                "switch.js": 163,
+                "switchMap.js": 130,
+                "switchMapTo.js": 136,
+                "take.js": 115,
+                "takeLast.js": 127,
+                "takeUntil.js": 130,
+                "takeWhile.js": 130,
+                "throttle.js": 127,
+                "throttleTime.js": 139,
+                "timeInterval.js": 139,
+                "timeout.js": 124,
+                "timeoutWith.js": 136,
+                "timestamp.js": 130,
+                "toArray.js": 124,
+                "toPromise.js": 17,
+                "window.js": 121,
+                "windowCount.js": 136,
+                "windowTime.js": 133,
+                "windowToggle.js": 139,
+                "windowWhen.js": 133,
+                "withLatestFrom.js": 145,
+                "zip.js": 117,
+                "zipAll.js": 121
+              }
+            },
+            "observable": {
+              "bindCallback.js": 112,
+              "BoundCallbackObservable.js": 2022,
+              "bindNodeCallback.js": 124,
+              "BoundNodeCallbackObservable.js": 2137,
+              "combineLatest.js": 448,
+              "ArrayObservable.js": 1131,
+              "ScalarObservable.js": 746,
+              "EmptyObservable.js": 562,
+              "concat.js": 302,
+              "of.js": 82,
+              "from.js": 86,
+              "FromObservable.js": 1256,
+              "PromiseObservable.js": 1225,
+              "IteratorObservable.js": 2044,
+              "ArrayLikeObservable.js": 979,
+              "defer.js": 89,
+              "DeferObservable.js": 827,
+              "empty.js": 89,
+              "forkJoin.js": 98,
+              "ForkJoinObservable.js": 1543,
+              "fromEvent.js": 101,
+              "FromEventObservable.js": 1791,
+              "fromEventPattern.js": 122,
+              "FromEventPatternObservable.js": 999,
+              "fromPromise.js": 99,
+              "generate.js": 98,
+              "GenerateObservable.js": 1612,
+              "if.js": 81,
+              "IfObservable.js": 951,
+              "interval.js": 98,
+              "IntervalObservable.js": 900,
+              "merge.js": 78,
+              "race.js": 1375,
+              "never.js": 89,
+              "NeverObservable.js": 431,
+              "onErrorResumeNext.js": 115,
+              "pairs.js": 89,
+              "PairsObservable.js": 818,
+              "range.js": 89,
+              "RangeObservable.js": 850,
+              "using.js": 89,
+              "UsingObservable.js": 932,
+              "throw.js": 90,
+              "ErrorObservable.js": 632,
+              "timer.js": 89,
+              "TimerObservable.js": 1029,
+              "zip.js": 73,
+              "dom": {
+                "ajax.js": 86,
+                "AjaxObservable.js": 5782,
+                "webSocket.js": 95,
+                "WebSocketSubject.js": 3289
+              },
+              "ConnectableObservable.js": 2467,
+              "SubscribeOnObservable.js": 898
+            },
+            "AsyncSubject.js": 937,
+            "operators": {
+              "combineLatest.js": 1698,
+              "observeOn.js": 1292,
+              "concatAll.js": 97,
+              "mergeAll.js": 178,
+              "mergeMap.js": 1916,
+              "merge.js": 653,
+              "onErrorResumeNext.js": 1397,
+              "zip.js": 3644,
+              "map.js": 890,
+              "buffer.js": 785,
+              "bufferCount.js": 1484,
+              "bufferTime.js": 2883,
+              "bufferToggle.js": 1961,
+              "bufferWhen.js": 1503,
+              "catchError.js": 854,
+              "combineAll.js": 160,
+              "concat.js": 220,
+              "concatMap.js": 104,
+              "concatMapTo.js": 125,
+              "count.js": 944,
+              "dematerialize.js": 552,
+              "debounce.js": 1424,
+              "debounceTime.js": 1296,
+              "defaultIfEmpty.js": 782,
+              "delay.js": 1669,
+              "delayWhen.js": 2437,
+              "distinct.js": 1198,
+              "distinctUntilChanged.js": 1116,
+              "distinctUntilKeyChanged.js": 185,
+              "tap.js": 1154,
+              "exhaust.js": 921,
+              "exhaustMap.js": 1536,
+              "expand.js": 1979,
+              "elementAt.js": 960,
+              "filter.js": 772,
+              "finalize.js": 577,
+              "find.js": 1201,
+              "findIndex.js": 155,
+              "first.js": 1631,
+              "groupBy.js": 2910,
+              "ignoreElements.js": 562,
+              "isEmpty.js": 684,
+              "audit.js": 1283,
+              "auditTime.js": 201,
+              "last.js": 1557,
+              "every.js": 1001,
+              "mapTo.js": 591,
+              "materialize.js": 813,
+              "max.js": 180,
+              "reduce.js": 330,
+              "scan.js": 1133,
+              "takeLast.js": 1022,
+              "mergeMapTo.js": 1912,
+              "mergeScan.js": 1766,
+              "min.js": 180,
+              "multicast.js": 558,
+              "refCount.js": 924,
+              "pairwise.js": 611,
+              "partition.js": 165,
+              "pluck.js": 365,
+              "publish.js": 178,
+              "publishBehavior.js": 178,
+              "publishReplay.js": 274,
+              "publishLast.js": 164,
+              "race.js": 279,
+              "repeat.js": 883,
+              "repeatWhen.js": 1959,
+              "retry.js": 788,
+              "retryWhen.js": 1583,
+              "sample.js": 908,
+              "sampleTime.js": 962,
+              "sequenceEqual.js": 1729,
+              "share.js": 202,
+              "shareReplay.js": 453,
+              "single.js": 1203,
+              "skip.js": 619,
+              "skipLast.js": 891,
+              "skipUntil.js": 999,
+              "skipWhile.js": 835,
+              "startWith.js": 508,
+              "subscribeOn.js": 356,
+              "switchAll.js": 132,
+              "switchMap.js": 1547,
+              "switchMapTo.js": 1431,
+              "take.js": 846,
+              "takeUntil.js": 720,
+              "takeWhile.js": 804,
+              "throttle.js": 1904,
+              "throttleTime.js": 1414,
+              "timeInterval.js": 850,
+              "timeout.js": 1379,
+              "timeoutWith.js": 1444,
+              "timestamp.js": 262,
+              "toArray.js": 131,
+              "window.js": 1267,
+              "windowCount.js": 1438,
+              "windowTime.js": 2961,
+              "windowToggle.js": 2273,
+              "windowWhen.js": 1683,
+              "withLatestFrom.js": 1417,
+              "zipAll.js": 125,
+              "index.js": 4745
+            },
+            "OuterSubscriber.js": 542,
+            "InnerSubscriber.js": 673,
+            "Notification.js": 1115,
+            "scheduler": {
+              "async.js": 120,
+              "AsyncAction.js": 1545,
+              "Action.js": 394,
+              "AsyncScheduler.js": 617,
+              "queue.js": 120,
+              "QueueAction.js": 802,
+              "QueueScheduler.js": 347,
+              "asap.js": 115,
+              "AsapAction.js": 838,
+              "AsapScheduler.js": 608,
+              "VirtualTimeScheduler.js": 1554,
+              "animationFrame.js": 165,
+              "AnimationFrameAction.js": 880,
+              "AnimationFrameScheduler.js": 618
+            },
+            "Scheduler.js": 304,
+            "operator": {
+              "merge.js": 231,
+              "buffer.js": 108,
+              "bufferCount.js": 148,
+              "bufferTime.js": 384,
+              "bufferToggle.js": 130,
+              "bufferWhen.js": 120,
+              "catch.js": 116,
+              "combineAll.js": 120,
+              "combineLatest.js": 201,
+              "concat.js": 180,
+              "concatAll.js": 115,
+              "concatMap.js": 121,
+              "concatMapTo.js": 127,
+              "count.js": 105,
+              "dematerialize.js": 127,
+              "debounce.js": 114,
+              "debounceTime.js": 180,
+              "defaultIfEmpty.js": 153,
+              "delay.js": 159,
+              "delayWhen.js": 121,
+              "distinct.js": 118,
+              "distinctUntilChanged.js": 154,
+              "distinctUntilKeyChanged.js": 163,
+              "do.js": 107,
+              "exhaust.js": 109,
+              "exhaustMap.js": 124,
+              "expand.js": 218,
+              "elementAt.js": 121,
+              "filter.js": 112,
+              "finally.js": 114,
+              "find.js": 106,
+              "findIndex.js": 121,
+              "first.js": 113,
+              "groupBy.js": 163,
+              "ignoreElements.js": 130,
+              "isEmpty.js": 109,
+              "audit.js": 105,
+              "auditTime.js": 171,
+              "last.js": 110,
+              "let.js": 69,
+              "every.js": 109,
+              "map.js": 103,
+              "mapTo.js": 105,
+              "materialize.js": 121,
+              "max.js": 99,
+              "mergeAll.js": 155,
+              "mergeMap.js": 163,
+              "mergeMapTo.js": 169,
+              "mergeScan.js": 166,
+              "min.js": 99,
+              "multicast.js": 121,
+              "observeOn.js": 139,
+              "onErrorResumeNext.js": 213,
+              "pairwise.js": 112,
+              "partition.js": 121,
+              "pluck.js": 177,
+              "publish.js": 111,
+              "publishBehavior.js": 135,
+              "publishReplay.js": 141,
+              "publishLast.js": 121,
+              "race.js": 220,
+              "reduce.js": 150,
+              "repeat.js": 127,
+              "repeatWhen.js": 120,
+              "retry.js": 124,
+              "retryWhen.js": 117,
+              "sample.js": 108,
+              "sampleTime.js": 174,
+              "scan.js": 142,
+              "sequenceEqual.js": 133,
+              "share.js": 103,
+              "shareReplay.js": 131,
+              "single.js": 108,
+              "skip.js": 102,
+              "skipLast.js": 114,
+              "skipUntil.js": 117,
+              "skipWhile.js": 117,
+              "startWith.js": 189,
+              "subscribeOn.js": 145,
+              "switch.js": 113,
+              "switchMap.js": 121,
+              "switchMapTo.js": 127,
+              "take.js": 102,
+              "takeLast.js": 114,
+              "takeUntil.js": 117,
+              "takeWhile.js": 117,
+              "throttle.js": 158,
+              "throttleTime.js": 253,
+              "timeInterval.js": 206,
+              "timeout.js": 165,
+              "timeoutWith.js": 181,
+              "timestamp.js": 167,
+              "toArray.js": 109,
+              "window.js": 108,
+              "windowCount.js": 145,
+              "windowTime.js": 472,
+              "windowToggle.js": 130,
+              "windowWhen.js": 120,
+              "withLatestFrom.js": 204,
+              "zip.js": 176,
+              "zipAll.js": 108
+            },
+            "ReplaySubject.js": 1603,
+            "BehaviorSubject.js": 828,
+            "testing": {
+              "TestScheduler.js": 4422,
+              "ColdObservable.js": 901,
+              "SubscriptionLoggable.js": 433,
+              "SubscriptionLog.js": 181,
+              "HotObservable.js": 864
+            }
+          },
+          "zone.js": {
+            "package.json": 102,
+            "dist": {
+              "zone.js": 40226
+            }
+          },
+          "core-js": {
+            "es7": {
+              "reflect.js": 449,
+              "array.js": 158,
+              "object.js": 344
+            },
+            "modules": {
+              "es7.reflect.define-metadata.js": 133,
+              "_metadata.js": 681,
+              "es6.map.js": 346,
+              "_collection-strong.js": 1600,
+              "_object-dp.js": 334,
+              "_an-object.js": 121,
+              "_is-object.js": 94,
+              "_ie8-dom-define.js": 168,
+              "_descriptors.js": 123,
+              "_fails.js": 74,
+              "_dom-create.js": 147,
+              "_global.js": 188,
+              "_to-primitive.js": 342,
+              "_object-create.js": 577,
+              "_object-dps.js": 225,
+              "_object-keys.js": 127,
+              "_object-keys-internal.js": 261,
+              "_has.js": 84,
+              "_to-iobject.js": 94,
+              "_iobject.js": 143,
+              "_cof.js": 86,
+              "_defined.js": 103,
+              "_array-includes.js": 291,
+              "_to-length.js": 113,
+              "_to-integer.js": 102,
+              "_to-absolute-index.js": 121,
+              "_shared-key.js": 107,
+              "_shared.js": 124,
+              "_uid.js": 129,
+              "_enum-bug-keys.js": 133,
+              "_html.js": 77,
+              "_redefine-all.js": 104,
+              "_redefine.js": 496,
+              "_hide.js": 167,
+              "_property-desc.js": 111,
+              "_core.js": 80,
+              "_ctx.js": 303,
+              "_a-function.js": 113,
+              "_an-instance.js": 140,
+              "_for-of.js": 520,
+              "_iter-call.js": 161,
+              "_is-array-iter.js": 150,
+              "_iterators.js": 29,
+              "_wks.js": 190,
+              "core.get-iterator-method.js": 187,
+              "_classof.js": 343,
+              "_iter-define.js": 1010,
+              "_library.js": 29,
+              "_export.js": 530,
+              "_iter-create.js": 255,
+              "_set-to-string-tag.js": 173,
+              "_object-gpo.js": 290,
+              "_to-object.js": 81,
+              "_iter-step.js": 66,
+              "_set-species.js": 219,
+              "_meta.js": 608,
+              "_validate-collection.js": 151,
+              "_collection.js": 1283,
+              "_iter-detect.js": 303,
+              "_inherit-if-required.js": 198,
+              "_set-proto.js": 444,
+              "_object-gopd.js": 313,
+              "_object-pie.js": 42,
+              "es6.weak-map.js": 886,
+              "_array-methods.js": 491,
+              "_array-species-create.js": 101,
+              "_array-species-constructor.js": 257,
+              "_is-array.js": 94,
+              "_object-assign.js": 538,
+              "_object-gops.js": 47,
+              "_collection-weak.js": 1095,
+              "es7.reflect.delete-metadata.js": 297,
+              "es7.reflect.get-metadata.js": 293,
+              "es7.reflect.get-metadata-keys.js": 359,
+              "es6.set.js": 280,
+              "_array-from-iterable.js": 99,
+              "es7.reflect.get-own-metadata.js": 171,
+              "es7.reflect.get-own-metadata-keys.js": 172,
+              "es7.reflect.has-metadata.js": 272,
+              "es7.reflect.has-own-metadata.js": 171,
+              "es7.reflect.metadata.js": 183,
+              "es6.symbol.js": 3562,
+              "_wks-ext.js": 30,
+              "_wks-define.js": 226,
+              "_enum-keys.js": 208,
+              "_object-gopn-ext.js": 316,
+              "_object-gopn.js": 163,
+              "es6.string.iterator.js": 258,
+              "_string-at.js": 317,
+              "es6.array.is-array.js": 75,
+              "es6.array.from.js": 654,
+              "_create-property.js": 134,
+              "es6.array.of.js": 312,
+              "es6.array.join.js": 211,
+              "_strict-method.js": 143,
+              "es6.array.slice.js": 415,
+              "es6.array.sort.js": 308,
+              "es6.array.for-each.js": 189,
+              "es6.array.map.js": 177,
+              "es6.array.filter.js": 183,
+              "es6.array.some.js": 179,
+              "es6.array.every.js": 181,
+              "es6.array.reduce.js": 199,
+              "_array-reduce.js": 368,
+              "es6.array.reduce-right.js": 209,
+              "es6.array.index-of.js": 251,
+              "es6.array.last-index-of.js": 429,
+              "es6.array.copy-within.js": 128,
+              "_array-copy-within.js": 367,
+              "_add-to-unscopables.js": 134,
+              "es6.array.fill.js": 109,
+              "_array-fill.js": 279,
+              "es6.array.find.js": 256,
+              "es6.array.find-index.js": 264,
+              "es6.array.species.js": 41,
+              "es6.array.iterator.js": 415,
+              "es6.function.bind.js": 71,
+              "_bind.js": 476,
+              "_invoke.js": 343,
+              "es6.function.name.js": 215,
+              "es6.function.has-instance.js": 317,
+              "es6.math.acosh.js": 257,
+              "_math-log1p.js": 102,
+              "es6.math.asinh.js": 173,
+              "es6.math.atanh.js": 146,
+              "es6.math.cbrt.js": 130,
+              "_math-sign.js": 86,
+              "es6.math.clz32.js": 129,
+              "es6.math.cosh.js": 104,
+              "es6.math.expm1.js": 98,
+              "_math-expm1.js": 191,
+              "es6.math.fround.js": 76,
+              "_math-fround.js": 271,
+              "es6.math.hypot.js": 230,
+              "es6.math.imul.js": 252,
+              "es6.math.log10.js": 101,
+              "es6.math.log1p.js": 74,
+              "es6.math.log2.js": 97,
+              "es6.math.sign.js": 72,
+              "es6.math.sinh.js": 232,
+              "es6.math.tanh.js": 168,
+              "es6.math.trunc.js": 106,
+              "es6.object.create.js": 80,
+              "es6.object.define-property.js": 111,
+              "es6.object.define-properties.js": 112,
+              "es6.object.get-own-property-descriptor.js": 161,
+              "_object-sap.js": 185,
+              "es6.object.get-prototype-of.js": 143,
+              "es6.object.keys.js": 134,
+              "es6.object.get-own-property-names.js": 99,
+              "es6.object.freeze.js": 149,
+              "es6.object.seal.js": 147,
+              "es6.object.prevent-extensions.js": 160,
+              "es6.object.is-frozen.js": 125,
+              "es6.object.is-sealed.js": 125,
+              "es6.object.is-extensible.js": 131,
+              "es6.object.assign.js": 84,
+              "es6.object.is.js": 73,
+              "_same-value.js": 94,
+              "es6.object.set-prototype-of.js": 88,
+              "es6.object.to-string.js": 198,
+              "es6.regexp.constructor.js": 753,
+              "_is-regexp.js": 158,
+              "_flags.js": 206,
+              "es6.regexp.to-string.js": 439,
+              "es6.regexp.flags.js": 132,
+              "es6.regexp.match.js": 191,
+              "_fix-re-wks.js": 379,
+              "es6.regexp.replace.js": 191,
+              "es6.regexp.search.js": 192,
+              "es6.regexp.split.js": 1286,
+              "es6.string.from-code-point.js": 385,
+              "es6.string.raw.js": 252,
+              "es6.string.trim.js": 104,
+              "_string-trim.js": 390,
+              "_string-ws.js": 108,
+              "es6.string.code-point-at.js": 132,
+              "es6.string.ends-with.js": 357,
+              "_string-context.js": 167,
+              "_fails-is-regexp.js": 153,
+              "es6.string.includes.js": 228,
+              "es6.string.repeat.js": 80,
+              "_string-repeat.js": 237,
+              "es6.string.starts-with.js": 339,
+              "es6.string.anchor.js": 118,
+              "_string-html.js": 357,
+              "es6.string.big.js": 113,
+              "es6.string.blink.js": 117,
+              "es6.string.bold.js": 112,
+              "es6.string.fixed.js": 114,
+              "es6.string.fontcolor.js": 125,
+              "es6.string.fontsize.js": 123,
+              "es6.string.italics.js": 115,
+              "es6.string.link.js": 116,
+              "es6.string.small.js": 117,
+              "es6.string.strike.js": 119,
+              "es6.string.sub.js": 113,
+              "es6.string.sup.js": 113,
+              "web.dom.iterable.js": 886,
+              "es6.weak-set.js": 265,
+              "es7.array.includes.js": 211,
+              "es7.array.flat-map.js": 330,
+              "_flatten-into-array.js": 409,
+              "es7.array.flatten.js": 336,
+              "es7.object.get-own-property-descriptors.js": 279,
+              "_own-keys.js": 196,
+              "es7.object.values.js": 115,
+              "_object-to-array.js": 231,
+              "es7.object.entries.js": 116,
+              "es7.object.define-getter.js": 262,
+              "_object-forced-pam.js": 172,
+              "es7.object.define-setter.js": 262,
+              "es7.object.lookup-getter.js": 299,
+              "es7.object.lookup-setter.js": 299,
+              "es7.string.pad-start.js": 168,
+              "_string-pad.js": 289,
+              "es7.string.pad-end.js": 166,
+              "es6.number.epsilon.js": 75,
+              "es6.number.is-finite.js": 132,
+              "es6.number.is-integer.js": 80,
+              "_is-integer.js": 113,
+              "es6.number.is-nan.js": 84,
+              "es6.number.is-safe-integer.js": 148,
+              "es6.number.max-safe-integer.js": 85,
+              "es6.number.min-safe-integer.js": 86,
+              "es6.number.parse-float.js": 113,
+              "_parse-float.js": 200,
+              "es6.number.parse-int.js": 107,
+              "_parse-int.js": 228,
+              "es6.typed.uint8-array.js": 103,
+              "_typed-array.js": 6990,
+              "_typed.js": 382,
+              "_typed-buffer.js": 3642,
+              "_to-index.js": 177,
+              "_species-constructor.js": 180,
+              "es6.typed.uint32-array.js": 104
+            },
+            "es6": {
+              "array.js": 793,
+              "function.js": 167,
+              "math.js": 574,
+              "object.js": 757,
+              "regexp.js": 299,
+              "string.js": 951,
+              "weak-map.js": 157,
+              "weak-set.js": 155
+            }
+          },
+          "@babel": {
+            "runtime": {
+              "helpers": {
+                "typeof.js": 500,
+                "interopRequireDefault.js": 79,
+                "toConsumableArray.js": 148,
+                "arrayWithoutHoles.js": 132,
+                "iterableToArray.js": 191,
+                "nonIterableSpread.js": 112,
+                "inheritsLoose.js": 147,
+                "objectSpread.js": 419,
+                "defineProperty.js": 173,
+                "assertThisInitialized.js": 151
+              },
+              "core-js": {
+                "symbol": {
+                  "iterator.js": 66
+                },
+                "symbol.js": 57,
+                "array": {
+                  "from.js": 61
+                },
+                "is-iterable.js": 62,
+                "object": {
+                  "create.js": 64,
+                  "get-own-property-descriptor.js": 85,
+                  "get-own-property-symbols.js": 82,
+                  "keys.js": 62,
+                  "define-property.js": 73
+                }
+              },
+              "node_modules": {
+                "core-js": {
+                  "library": {
+                    "fn": {
+                      "symbol": {
+                        "iterator.js": 143,
+                        "index.js": 214
+                      },
+                      "array": {
+                        "from.js": 135
+                      },
+                      "is-iterable.js": 128,
+                      "object": {
+                        "create.js": 139,
+                        "get-own-property-descriptor.js": 178,
+                        "get-own-property-symbols.js": 110,
+                        "keys.js": 98,
+                        "define-property.js": 160
+                      }
+                    },
+                    "modules": {
+                      "es6.string.iterator.js": 258,
+                      "_string-at.js": 317,
+                      "_to-integer.js": 102,
+                      "_defined.js": 103,
+                      "_iter-define.js": 1014,
+                      "_library.js": 29,
+                      "_export.js": 784,
+                      "_global.js": 188,
+                      "_core.js": 80,
+                      "_ctx.js": 303,
+                      "_a-function.js": 113,
+                      "_hide.js": 167,
+                      "_object-dp.js": 334,
+                      "_an-object.js": 121,
+                      "_is-object.js": 94,
+                      "_ie8-dom-define.js": 168,
+                      "_descriptors.js": 123,
+                      "_fails.js": 74,
+                      "_dom-create.js": 147,
+                      "_to-primitive.js": 342,
+                      "_property-desc.js": 111,
+                      "_redefine.js": 39,
+                      "_has.js": 84,
+                      "_iterators.js": 29,
+                      "_iter-create.js": 255,
+                      "_object-create.js": 577,
+                      "_object-dps.js": 225,
+                      "_object-keys.js": 127,
+                      "_object-keys-internal.js": 261,
+                      "_to-iobject.js": 94,
+                      "_iobject.js": 143,
+                      "_cof.js": 86,
+                      "_array-includes.js": 291,
+                      "_to-length.js": 113,
+                      "_to-absolute-index.js": 121,
+                      "_shared-key.js": 107,
+                      "_shared.js": 124,
+                      "_uid.js": 129,
+                      "_enum-bug-keys.js": 133,
+                      "_html.js": 77,
+                      "_set-to-string-tag.js": 173,
+                      "_wks.js": 190,
+                      "_object-gpo.js": 290,
+                      "_to-object.js": 81,
+                      "web.dom.iterable.js": 668,
+                      "es6.array.iterator.js": 415,
+                      "_add-to-unscopables.js": 39,
+                      "_iter-step.js": 66,
+                      "_wks-ext.js": 30,
+                      "es6.symbol.js": 3582,
+                      "_meta.js": 608,
+                      "_wks-define.js": 226,
+                      "_enum-keys.js": 208,
+                      "_object-gops.js": 47,
+                      "_object-pie.js": 42,
+                      "_is-array.js": 94,
+                      "_object-gopn-ext.js": 316,
+                      "_object-gopn.js": 163,
+                      "_object-gopd.js": 313,
+                      "es6.object.to-string.js": 12,
+                      "es7.symbol.async-iterator.js": 48,
+                      "es7.symbol.observable.js": 45,
+                      "es6.array.from.js": 654,
+                      "_iter-call.js": 161,
+                      "_is-array-iter.js": 150,
+                      "_create-property.js": 134,
+                      "core.get-iterator-method.js": 187,
+                      "_classof.js": 343,
+                      "_iter-detect.js": 303,
+                      "core.is-iterable.js": 210,
+                      "es6.object.create.js": 80,
+                      "es6.object.get-own-property-descriptor.js": 161,
+                      "_object-sap.js": 185,
+                      "es6.object.keys.js": 134,
+                      "es6.object.define-property.js": 111
+                    }
+                  }
+                }
+              },
+              "package.json": 1234
+            }
+          },
+          "@ngx-translate": {
+            "core": {
+              "package.json": 90,
+              "bundles": {
+                "core.umd.js": 19932
+              }
+            },
+            "http-loader": {
+              "package.json": 104,
+              "bundles": {
+                "http-loader.umd.js": 1309
+              }
+            }
+          },
+          "angular-highcharts": {
+            "package.json": 95,
+            "angular-highcharts.umd.js": 3404
+          },
+          "highcharts": {
+            "package.json": 75,
+            "highcharts.js": 195347
+          },
+          "jspdf": {
+            "package.json": 74,
+            "dist": {
+              "jspdf.min.js": 227409
+            }
+          },
+          "filestack-js": {
+            "package.json": 82,
+            "dist": {
+              "filestack.js": 109294
+            }
+          },
+          "qrious": {
+            "package.json": 72,
+            "dist": {
+              "qrious.js": 17435
+            }
+          },
+          "md5": {
+            "package.json": 61,
+            "md5.js": 3232
+          },
+          "crypt": {
+            "package.json": 65,
+            "crypt.js": 1275
+          },
+          "charenc": {
+            "package.json": 69,
+            "charenc.js": 428
+          },
+          "is-buffer": {
+            "package.json": 69,
+            "index.js": 287
+          },
+          "hammerjs": {
+            "package.json": 69,
+            "hammer.js": 20554
+          },
+          "meteor-node-stubs": {
+            "package.json": 77,
+            "index.js": 280,
+            "map.json": 950,
+            "deps": {
+              "process.js": 36
+            },
+            "node_modules": {
+              "process": {
+                "browser.js": 1686
+              }
+            }
+          },
+          "jquery": {
+            "package.json": 72,
+            "dist": {
+              "jquery.js": 86238
+            }
+          }
+        }
+      }
+    ],
+    "packages/ecmascript-runtime.js": 38,
+    "packages/babel-runtime.js": [
+      1484,
+      {
+        "node_modules": {
+          "meteor": {
+            "babel-runtime": {
+              "babel-runtime.js": 604,
+              "node_modules": {
+                "meteor-babel-helpers": {
+                  "package.json": 80,
+                  "index.js": 389
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/promise.js": [
+      5536,
+      {
+        "node_modules": {
+          "meteor": {
+            "promise": {
+              "client.js": 85,
+              "common.js": 523,
+              "node_modules": {
+                "meteor-promise": {
+                  "package.json": 113,
+                  "promise_client.js": 266
+                },
+                "promise": {
+                  "lib": {
+                    "es6-extensions.js": 1220,
+                    "core.js": 1868
+                  }
+                },
+                "asap": {
+                  "package.json": 241,
+                  "raw.js": 63,
+                  "browser-raw.js": 671
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/url.js": [
+      1064,
+      {
+        "node_modules": {
+          "meteor": {
+            "url": {
+              "url_client.js": 152,
+              "url_common.js": 605
+            }
+          }
+        }
+      }
+    ],
+    "packages/http.js": [
+      3371,
+      {
+        "node_modules": {
+          "meteor": {
+            "http": {
+              "httpcall_client.js": 2095,
+              "httpcall_common.js": 932
+            }
+          }
+        }
+      }
+    ],
+    "packages/dynamic-import.js": [
+      4620,
+      {
+        "node_modules": {
+          "meteor": {
+            "dynamic-import": {
+              "client.js": 1583,
+              "cache.js": 1964,
+              "common.js": 60,
+              "dynamic-versions.js": 614
+            }
+          }
+        }
+      }
+    ],
+    "packages/ecmascript-runtime-client.js": [
+      1722,
+      {
+        "node_modules": {
+          "meteor": {
+            "ecmascript-runtime-client": {
+              "runtime.js": 1327
+            }
+          }
+        }
+      }
+    ],
+    "packages/base64.js": [
+      1995,
+      {
+        "node_modules": {
+          "meteor": {
+            "base64": {
+              "base64.js": 1494
+            }
+          }
+        }
+      }
+    ],
+    "packages/ejson.js": [
+      7283,
+      {
+        "node_modules": {
+          "meteor": {
+            "ejson": {
+              "ejson.js": 5750,
+              "stringify.js": 1001
+            }
+          }
+        }
+      }
+    ],
+    "packages/diff-sequence.js": [
+      2886,
+      {
+        "node_modules": {
+          "meteor": {
+            "diff-sequence": {
+              "diff.js": 2338
+            }
+          }
+        }
+      }
+    ],
+    "packages/geojson-utils.js": [
+      5171,
+      {
+        "node_modules": {
+          "meteor": {
+            "geojson-utils": {
+              "main.js": 48,
+              "geojson-utils.js": 4784
+            }
+          }
+        }
+      }
+    ],
+    "packages/id-map.js": [
+      1833,
+      {
+        "node_modules": {
+          "meteor": {
+            "id-map": {
+              "id-map.js": 1314
+            }
+          }
+        }
+      }
+    ],
+    "packages/random.js": [
+      3709,
+      {
+        "node_modules": {
+          "meteor": {
+            "random": {
+              "random.js": 3217
+            }
+          }
+        }
+      }
+    ],
+    "packages/mongo-id.js": [
+      2391,
+      {
+        "node_modules": {
+          "meteor": {
+            "mongo-id": {
+              "id.js": 1817
+            }
+          }
+        }
+      }
+    ],
+    "packages/ordered-dict.js": [
+      3975,
+      {
+        "node_modules": {
+          "meteor": {
+            "ordered-dict": {
+              "ordered_dict.js": 3437
+            }
+          }
+        }
+      }
+    ],
+    "packages/tracker.js": 4889,
+    "packages/minimongo.js": [
+      48770,
+      {
+        "node_modules": {
+          "meteor": {
+            "minimongo": {
+              "minimongo_client.js": 52,
+              "common.js": 13390,
+              "cursor.js": 5202,
+              "local_collection.js": 21033,
+              "matcher.js": 2940,
+              "minimongo_common.js": 247,
+              "observe_handle.js": 100,
+              "sorter.js": 4837
+            }
+          }
+        }
+      }
+    ],
+    "packages/check.js": [
+      6739,
+      {
+        "node_modules": {
+          "meteor": {
+            "check": {
+              "match.js": 5870,
+              "isPlainObject.js": 327
+            }
+          }
+        }
+      }
+    ],
+    "packages/retry.js": [
+      1484,
+      {
+        "node_modules": {
+          "meteor": {
+            "retry": {
+              "retry.js": 970
+            }
+          }
+        }
+      }
+    ],
+    "packages/callback-hook.js": [
+      1794,
+      {
+        "node_modules": {
+          "meteor": {
+            "callback-hook": {
+              "hook.js": 1281
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp-common.js": [
+      5516,
+      {
+        "node_modules": {
+          "meteor": {
+            "ddp-common": {
+              "namespace.js": 16,
+              "heartbeat.js": 1687,
+              "utils.js": 1569,
+              "method_invocation.js": 587,
+              "random_stream.js": 699
+            }
+          }
+        }
+      }
+    ],
+    "packages/reload.js": [
+      2150,
+      {
+        "node_modules": {
+          "meteor": {
+            "reload": {
+              "reload.js": 1649
+            }
+          }
+        }
+      }
+    ],
+    "packages/socket-stream-client.js": [
+      38246,
+      {
+        "node_modules": {
+          "meteor": {
+            "socket-stream-client": {
+              "browser.js": 3555,
+              "common.js": 2934,
+              "sockjs-0.3.4.js": 30488,
+              "urls.js": 733
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp-client.js": [
+      25606,
+      {
+        "node_modules": {
+          "meteor": {
+            "ddp-client": {
+              "client": {
+                "client.js": 161,
+                "client_convenience.js": 920
+              },
+              "common": {
+                "MethodInvoker.js": 1379,
+                "livedata_connection.js": 21104,
+                "namespace.js": 1076
+              }
+            }
+          }
+        }
+      }
+    ],
+    "packages/ddp.js": 78,
+    "packages/ddp-server.js": 30,
+    "packages/allow-deny.js": [
+      6140,
+      {
+        "node_modules": {
+          "meteor": {
+            "allow-deny": {
+              "allow-deny.js": 5463
+            }
+          }
+        }
+      }
+    ],
+    "packages/mongo.js": [
+      9378,
+      {
+        "node_modules": {
+          "meteor": {
+            "mongo": {
+              "local_collection_driver.js": 438,
+              "collection.js": 8016
+            }
+          }
+        }
+      }
+    ],
+    "packages/reactive-var.js": 818,
+    "packages/standard-minifier-css.js": 41,
+    "packages/standard-minifier-js.js": 40,
+    "packages/webapp.js": [
+      887,
+      {
+        "node_modules": {
+          "meteor": {
+            "webapp": {
+              "webapp_client.js": 372
+            }
+          }
+        }
+      }
+    ],
+    "packages/server-render.js": [
+      1983,
+      {
+        "node_modules": {
+          "meteor": {
+            "server-render": {
+              "client.js": 267,
+              "client-sink.js": 1168
+            }
+          }
+        }
+      }
+    ],
+    "packages/shim-common.js": 31,
+    "packages/es5-shim.js": [
+      576,
+      {
+        "node_modules": {
+          "meteor": {
+            "es5-shim": {
+              "console.js": 289
+            }
+          }
+        }
+      }
+    ],
+    "packages/shell-server.js": 32,
+    "packages/angular-compilers.js": 37,
+    "packages/underscore.js": 14349,
+    "packages/ddp-rate-limiter.js": 36,
+    "packages/localstorage.js": 835,
+    "packages/jquery.js": [
+      97268,
+      {
+        "node_modules": {
+          "meteor": {
+            "jquery": {
+              "main.js": 134,
+              "jquery.js": 96820
+            }
+          }
+        }
+      }
+    ],
+    "packages/observe-sequence.js": 2915,
+    "packages/deps.js": 111,
+    "packages/htmljs.js": 10030,
+    "packages/blaze.js": 38671,
+    "packages/accounts-base.js": [
+      13691,
+      {
+        "node_modules": {
+          "meteor": {
+            "accounts-base": {
+              "client_main.js": 307,
+              "accounts_client.js": 4708,
+              "accounts_common.js": 3749,
+              "localstorage_token.js": 2509,
+              "url_client.js": 1581
+            }
+          }
+        }
+      }
+    ],
+    "packages/sha.js": 2521,
+    "packages/srp.js": 18955,
+    "packages/accounts-password.js": [
+      2888,
+      {
+        "node_modules": {
+          "meteor": {
+            "accounts-password": {
+              "password_client.js": 2164
+            }
+          }
+        }
+      }
+    ],
+    "packages/service-configuration.js": 711,
+    "packages/spacebars.js": 2928,
+    "packages/templating-compiler.js": 39,
+    "packages/templating-runtime.js": 3045,
+    "packages/templating.js": 103,
+    "packages/reactive-dict.js": [
+      4599,
+      {
+        "node_modules": {
+          "meteor": {
+            "reactive-dict": {
+              "migration.js": 781,
+              "reactive-dict.js": 3168
+            }
+          }
+        }
+      }
+    ],
+    "packages/session.js": 264,
+    "packages/oauth.js": 3525,
+    "packages/accounts-oauth.js": 1488,
+    "packages/less.js": 24,
+    "packages/accounts-ui-unstyled.js": 40836,
+    "packages/accounts-ui.js": 31,
+    "packages/oauth1.js": 26,
+    "packages/twitter-oauth.js": 1051,
+    "packages/accounts-twitter.js": [
+      1466,
+      {
+        "node_modules": {
+          "meteor": {
+            "accounts-twitter": {
+              "notice.js": 308,
+              "twitter.js": 486
+            }
+          }
+        }
+      }
+    ],
+    "packages/oauth2.js": 26,
+    "packages/google-oauth.js": [
+      2101,
+      {
+        "node_modules": {
+          "meteor": {
+            "google-oauth": {
+              "google_client.js": 1334,
+              "namespace.js": 39
+            }
+          }
+        }
+      }
+    ],
+    "packages/accounts-google.js": [
+      1831,
+      {
+        "node_modules": {
+          "meteor": {
+            "accounts-google": {
+              "notice.js": 308,
+              "google.js": 832
+            }
+          }
+        }
+      }
+    ],
+    "packages/email.js": 25,
+    "packages/astrocoders_one-signal.js": 42,
+    "packages/mrt_later.js": 24343,
+    "packages/coffeescript.js": 32,
+    "packages/vsivsi_job-collection.js": 50160,
+    "packages/facebook-oauth.js": 1054,
+    "packages/btafel_accounts-facebook-cordova.js": 1418,
+    "packages/percolate_synced-cron.js": 64,
+    "packages/meteorhacks_ssr.js": 35,
+    "packages/reywood_publish-composite.js": 45,
+    "packages/livedata.js": 105,
+    "packages/hot-code-push.js": 33,
+    "packages/launch-screen.js": 787,
+    "packages/autoupdate.js": [
+      2409,
+      {
+        "node_modules": {
+          "meteor": {
+            "autoupdate": {
+              "autoupdate_client.js": 1756
+            }
+          }
+        }
+      }
+    ],
+    "app/global-imports.js": 984,
+    "app/app.js": [
+      3661175,
+      {
+        "client": {
+          "imports": {
+            "app": {
+              "web": {
+                "administrator": {
+                  "administration": {
+                    "tables": {
+                      "table-control": {
+                        "table-detail": {
+                          "penalize-customer": {
+                            "penalize-customer.component.js": 1410,
+                            "penalize-customer.component.ngfactory.js": 13904,
+                            "penalize-customer.component.scss.shim.ngstyle.js": 905
+                          },
+                          "table-detail.component.scss.shim.ngstyle.js": 1702,
+                          "table-detail.component.js": 3263,
+                          "table-detail.component.ngfactory.js": 14228
+                        },
+                        "establishment-table-control.component.scss.shim.ngstyle.js": 276,
+                        "establishment-table-control.component.js": 2511,
+                        "establishment-table-control.component.ngfactory.js": 19755
+                      },
+                      "table": {
+                        "table.component.scss.shim.ngstyle.js": 90,
+                        "table.component.js": 5153,
+                        "table.component.ngfactory.js": 25046
+                      }
+                    },
+                    "establishment": {
+                      "monthly-config": {
+                        "disable-confirm": {
+                          "disable-confirm.component.scss.shim.ngstyle.js": 90,
+                          "disable-confirm.component.js": 607,
+                          "disable-confirm.component.ngfactory.js": 3978
+                        },
+                        "enable-disable": {
+                          "enable-disable.component.scss.shim.ngstyle.js": 265,
+                          "enable-disable.component.js": 6457,
+                          "enable-disable.component.ngfactory.js": 21265
+                        },
+                        "establishment-list": {
+                          "establishment-list.component.scss.shim.ngstyle.js": 165,
+                          "establishment-list.component.js": 3002,
+                          "establishment-list.component.ngfactory.js": 14298
+                        }
+                      },
+                      "register": {
+                        "after-establishment-creation": {
+                          "after-establishment-creation.component.scss.shim.ngstyle.js": 959,
+                          "after-establishment-creation.component.js": 859,
+                          "after-establishment-creation.component.ngfactory.js": 6821
+                        },
+                        "create-confirm": {
+                          "create-confirm.component.scss.shim.ngstyle.js": 90,
+                          "create-confirm.component.js": 851,
+                          "create-confirm.component.ngfactory.js": 5624
+                        },
+                        "establishment-register.component.scss.shim.ngstyle.js": 147,
+                        "establishment-register.component.js": 13642,
+                        "establishment-register.component.ngfactory.js": 71219
+                      },
+                      "edition": {
+                        "establishment-edition.component.scss.shim.ngstyle.js": 158,
+                        "establishment-edition.component.js": 8552,
+                        "establishment-edition.component.ngfactory.js": 60387
+                      },
+                      "establishment": {
+                        "establishment.component.scss.shim.ngstyle.js": 844,
+                        "establishment.component.js": 3549,
+                        "establishment.component.ngfactory.js": 17743
+                      },
+                      "info": {
+                        "establishment-info.component.scss.shim.ngstyle.js": 651,
+                        "establishment-info.component.js": 1949,
+                        "establishment-info.component.ngfactory.js": 6338
+                      },
+                      "profile": {
+                        "establishment-profile.component.scss.shim.ngstyle.js": 2873,
+                        "establishment-profile.component.js": 12236,
+                        "establishment-profile.component.ngfactory.js": 83487
+                      }
+                    },
+                    "collaborators": {
+                      "collaborators": {
+                        "collaborators.component.scss.shim.ngstyle.js": 745,
+                        "collaborators.component.js": 3390,
+                        "collaborators.component.ngfactory.js": 32630
+                      },
+                      "edition": {
+                        "collaborators-edition.component.js": 7641,
+                        "collaborators-edition.component.ngfactory.js": 80709
+                      },
+                      "register": {
+                        "collaborators-register.component.js": 8988,
+                        "collaborators-register.component.ngfactory.js": 94825
+                      }
+                    }
+                  },
+                  "menu": {
+                    "items": {
+                      "enable": {
+                        "enable-confirm": {
+                          "enable-confirm.component.scss.shim.ngstyle.js": 90,
+                          "enable-confirm.component.js": 1757,
+                          "enable-confirm.component.ngfactory.js": 5871
+                        },
+                        "items-enable.component.js": 1616,
+                        "items-enable.component.ngfactory.js": 7320
+                      },
+                      "item": {
+                        "recommended": {
+                          "recommended.component.scss.shim.ngstyle.js": 143,
+                          "recommended.component.js": 1634,
+                          "recommended.component.ngfactory.js": 6273
+                        },
+                        "item.component.scss.shim.ngstyle.js": 1370,
+                        "item.component.js": 4436,
+                        "item.component.ngfactory.js": 20843
+                      },
+                      "creation": {
+                        "item-creation.component.scss.shim.ngstyle.js": 1036,
+                        "item-creation.component.js": 17108,
+                        "item-creation.component.ngfactory.js": 118899
+                      },
+                      "edition": {
+                        "item-edition.component.scss.shim.ngstyle.js": 953,
+                        "item-edition.component.js": 31260,
+                        "item-edition.component.ngfactory.js": 120226
+                      }
+                    },
+                    "options": {
+                      "options": {
+                        "option-edit": {
+                          "option-edit.component.scss.shim.ngstyle.js": 273,
+                          "option-edit.component.js": 3108,
+                          "option-edit.component.ngfactory.js": 15998
+                        },
+                        "option": {
+                          "option.component.scss.shim.ngstyle.js": 529,
+                          "option.component.js": 5241,
+                          "option.component.ngfactory.js": 26206
+                        }
+                      },
+                      "values": {
+                        "option-value-edit": {
+                          "option-value-edit.component.scss.shim.ngstyle.js": 202,
+                          "option-value-edit.component.js": 2576,
+                          "option-value-edit.component.ngfactory.js": 18722
+                        },
+                        "option-value": {
+                          "option-value.component.scss.shim.ngstyle.js": 629,
+                          "option-value.component.js": 5263,
+                          "option-value.component.ngfactory.js": 27734
+                        }
+                      }
+                    },
+                    "additions": {
+                      "addition-edit": {
+                        "addition-edit.component.scss.shim.ngstyle.js": 745,
+                        "addition-edit.component.js": 5364,
+                        "addition-edit.component.ngfactory.js": 29605
+                      },
+                      "addition": {
+                        "addition.component.scss.shim.ngstyle.js": 1644,
+                        "addition.component.js": 7543,
+                        "addition.component.ngfactory.js": 36501
+                      }
+                    },
+                    "categories": {
+                      "categories-edit": {
+                        "categories-edit.component.scss.shim.ngstyle.js": 202,
+                        "categories-edit.component.js": 2538,
+                        "categories-edit.component.ngfactory.js": 18701
+                      },
+                      "categories": {
+                        "categories.component.scss.shim.ngstyle.js": 731,
+                        "categories.component.js": 5748,
+                        "categories.component.ngfactory.js": 27350
+                      }
+                    },
+                    "garnish-food": {
+                      "garnish-food-edit": {
+                        "garnish-food-edit.component.scss.shim.ngstyle.js": 745,
+                        "garnish-food-edit.component.js": 5435,
+                        "garnish-food-edit.component.ngfactory.js": 29668
+                      },
+                      "garnish-food": {
+                        "garnish-food.component.scss.shim.ngstyle.js": 1742,
+                        "garnish-food.component.js": 7677,
+                        "garnish-food.component.ngfactory.js": 36620
+                      }
+                    },
+                    "sections": {
+                      "section-edit": {
+                        "section-edit.component.scss.shim.ngstyle.js": 288,
+                        "section-edit.component.js": 3053,
+                        "section-edit.component.ngfactory.js": 15853
+                      },
+                      "section": {
+                        "section.component.scss.shim.ngstyle.js": 497,
+                        "section.component.js": 5858,
+                        "section.component.ngfactory.js": 25809
+                      }
+                    },
+                    "subcategories": {
+                      "subcategories-edit": {
+                        "subcategories-edit.component.scss.shim.ngstyle.js": 202,
+                        "subcategories-edit.component.js": 2594,
+                        "subcategories-edit.component.ngfactory.js": 18619
+                      },
+                      "subcategories": {
+                        "subcategories.component.scss.shim.ngstyle.js": 690,
+                        "subcategories.component.js": 5480,
+                        "subcategories.component.ngfactory.js": 27448
+                      }
+                    }
+                  },
+                  "payment": {
+                    "payment-history": {
+                      "verify-result": {
+                        "verify-result.component.scss.shim.ngstyle.js": 90,
+                        "verify-result.component.js": 926,
+                        "verify-result.component.ngfactory.js": 5704
+                      },
+                      "payment-history.component.scss.shim.ngstyle.js": 436,
+                      "payment-history.component.js": 12687,
+                      "payment-history.component.ngfactory.js": 30362
+                    },
+                    "payu-payment-form": {
+                      "cc-payment-confirm": {
+                        "cc-payment-confirm.component.scss.shim.ngstyle.js": 90,
+                        "cc-payment-confirm.component.js": 1000,
+                        "cc-payment-confirm.component.ngfactory.js": 13804
+                      },
+                      "transaction-response-confirm": {
+                        "trn-response-confirm.component.scss.shim.ngstyle.js": 90,
+                        "trn-response-confirm.component.js": 988,
+                        "trn-response-confirm.component.ngfactory.js": 6948
+                      },
+                      "payu-payment-form.component.scss.shim.ngstyle.js": 158,
+                      "payu-payment-form.component.js": 17506,
+                      "payu-payment-form.component.ngfactory.js": 90420
+                    },
+                    "monthly-payment": {
+                      "monthly-payment.component.scss.shim.ngstyle.js": 379,
+                      "monthly-payment.component.js": 5448,
+                      "monthly-payment.component.ngfactory.js": 21344
+                    },
+                    "reactivate-establishment": {
+                      "reactivate-establishment.component.scss.shim.ngstyle.js": 379,
+                      "reactivate-establishment.component.js": 4226,
+                      "reactivate-establishment.component.ngfactory.js": 14995
+                    }
+                  },
+                  "dashboard": {
+                    "item-history-chart": {
+                      "item-history-chart.component.scss.shim.ngstyle.js": 90,
+                      "item-history-chart.component.js": 5591,
+                      "item-history-chart.component.ngfactory.js": 2445
+                    },
+                    "item-units-chart": {
+                      "item-units-chart.component.scss.shim.ngstyle.js": 179,
+                      "item-units-chart.component.js": 3782,
+                      "item-units-chart.component.ngfactory.js": 2423
+                    },
+                    "reward-history-chart": {
+                      "reward-history-chart.component.scss.shim.ngstyle.js": 90,
+                      "reward-history-chart.component.js": 5597,
+                      "reward-history-chart.component.ngfactory.js": 2471
+                    },
+                    "reward-units-chart": {
+                      "reward-units-chart.component.scss.shim.ngstyle.js": 90,
+                      "reward-units-chart.component.js": 3812,
+                      "reward-units-chart.component.ngfactory.js": 2447
+                    },
+                    "dashboard.component.scss.shim.ngstyle.js": 2776,
+                    "dashboard.component.js": 4467,
+                    "dashboard.component.ngfactory.js": 12646
+                  },
+                  "rewards": {
+                    "reward-edit": {
+                      "reward-edit.component.scss.shim.ngstyle.js": 388,
+                      "reward-edit.component.js": 2833,
+                      "reward-edit.component.ngfactory.js": 16840
+                    },
+                    "reward": {
+                      "reward.component.scss.shim.ngstyle.js": 1108,
+                      "reward.component.js": 5899,
+                      "reward.component.ngfactory.js": 43299
+                    }
+                  },
+                  "orders-today": {
+                    "orders-today.component.scss.shim.ngstyle.js": 5364,
+                    "orders-today.component.js": 3570,
+                    "orders-today.component.ngfactory.js": 46146
+                  }
+                },
+                "general": {
+                  "alert-confirm": {
+                    "alert-confirm.component.scss.shim.ngstyle.js": 90,
+                    "alert-confirm.component.js": 1018,
+                    "alert-confirm.component.ngfactory.js": 4839
+                  },
+                  "lightbox": {
+                    "lightbox.component.scss.shim.ngstyle.js": 281,
+                    "lightbox.component.js": 1113,
+                    "lightbox.component.ngfactory.js": 1202
+                  },
+                  "schedule": {
+                    "schedule.component.scss.shim.ngstyle.js": 270,
+                    "schedule.component.js": 5904,
+                    "schedule.component.ngfactory.js": 57712
+                  },
+                  "slider": {
+                    "slider.component.js": 1011
+                  },
+                  "utils": {
+                    "string-utils.js": 2154
+                  }
+                },
+                "auth": {
+                  "recover-password": {
+                    "recover": {
+                      "recover.web.component.scss.shim.ngstyle.js": 167,
+                      "recover.web.component.js": 1791,
+                      "recover.web.component.ngfactory.js": 11727
+                    },
+                    "recover-confirm": {
+                      "recover-confirm.component.js": 758,
+                      "recover-confirm.component.ngfactory.js": 4661
+                    }
+                  },
+                  "payment-plan-info": {
+                    "payment-plan-info.component.scss.shim.ngstyle.js": 1645,
+                    "payment-plan-info.component.js": 1538,
+                    "payment-plan-info.component.ngfactory.js": 29140
+                  },
+                  "admin-signup": {
+                    "admin-signup.component.scss.shim.ngstyle.js": 6021,
+                    "admin-signup.component.js": 4158,
+                    "admin-signup.component.ngfactory.js": 82109
+                  },
+                  "go-to-store": {
+                    "go-to-store.component.scss.shim.ngstyle.js": 2378,
+                    "go-to-store.component.js": 898,
+                    "go-to-store.component.ngfactory.js": 7507
+                  },
+                  "notfound": {
+                    "notfound.web.component.scss.shim.ngstyle.js": 1513,
+                    "notfound.web.component.js": 621,
+                    "notfound.web.component.ngfactory.js": 2979
+                  },
+                  "auth.component.scss.shim.ngstyle.js": 3196,
+                  "reset-password": {
+                    "reset-password.web.component.js": 2062,
+                    "reset-password.web.component.ngfactory.js": 19612
+                  },
+                  "signin": {
+                    "signin.web.component.js": 2537,
+                    "signin.web.component.ngfactory.js": 18292
+                  },
+                  "signup": {
+                    "signup.web.component.js": 2755
+                  },
+                  "auth.class.js": 2493
+                },
+                "customer": {
+                  "establishment-profile-detail": {
+                    "schedule-detail": {
+                      "schedule-detail.component.scss.shim.ngstyle.js": 90,
+                      "schedule-detail.component.js": 830,
+                      "schedule-detail.component.ngfactory.js": 16595
+                    },
+                    "establishment-profile-detail": {
+                      "establishment-profile-detail.component.scss.shim.ngstyle.js": 1667,
+                      "establishment-profile-detail.component.js": 5264,
+                      "establishment-profile-detail.component.ngfactory.js": 39565
+                    }
+                  },
+                  "orders": {
+                    "order": {
+                      "order.component.scss.shim.ngstyle.js": 725,
+                      "order.component.js": 4848,
+                      "order.component.ngfactory.js": 18002
+                    },
+                    "order-create": {
+                      "order-create.component.scss.shim.ngstyle.js": 27086,
+                      "order-create.component.js": 14569,
+                      "order-create.component.ngfactory.js": 115082
+                    },
+                    "order-list": {
+                      "order-list.component.scss.shim.ngstyle.js": 2523,
+                      "order-list.component.js": 27707,
+                      "order-list.component.ngfactory.js": 151552
+                    },
+                    "order-navigation": {
+                      "order-menu-option.component.js": 2157,
+                      "order-menu.js": 481
+                    }
+                  },
+                  "rewards-detail": {
+                    "rewards-detail.component.scss.shim.ngstyle.js": 597,
+                    "rewards-detail.component.js": 2617,
+                    "rewards-detail.component.ngfactory.js": 18732
+                  },
+                  "points": {
+                    "points": {
+                      "customer-points.component.scss.shim.ngstyle.js": 684,
+                      "customer-points.component.js": 2917,
+                      "customer-points.component.ngfactory.js": 11950
+                    },
+                    "points-detail": {
+                      "points-detail.component.scss.shim.ngstyle.js": 3779,
+                      "points-detail.component.js": 1917,
+                      "points-detail.component.ngfactory.js": 25794
+                    }
+                  },
+                  "establishment-exit": {
+                    "establishment-exit.component.scss.shim.ngstyle.js": 699,
+                    "establishment-exit.component.js": 6225,
+                    "establishment-exit.component.ngfactory.js": 12126
+                  },
+                  "table-change": {
+                    "table-change.component.scss.shim.ngstyle.js": 184,
+                    "table-change.component.js": 3659,
+                    "table-change.component.ngfactory.js": 17816
+                  },
+                  "waiter-call": {
+                    "waiter-call.component.scss.shim.ngstyle.js": 1474,
+                    "waiter-call.component.js": 3310,
+                    "waiter-call.component.ngfactory.js": 19316
+                  }
+                },
+                "navigation": {
+                  "sidenav": {
+                    "sidenav-item": {
+                      "sidenav-item.component.scss.shim.ngstyle.js": 140,
+                      "sidenav-item.component.js": 4506,
+                      "sidenav-item.component.ngfactory.js": 14424
+                    },
+                    "sidenav.component.scss.shim.ngstyle.js": 875,
+                    "sidenav.component.js": 2529,
+                    "sidenav.component.ngfactory.js": 5000
+                  },
+                  "footer": {
+                    "footer.component.scss.shim.ngstyle.js": 90,
+                    "footer.component.js": 347,
+                    "footer.component.ngfactory.js": 645
+                  },
+                  "layout": {
+                    "layout.component.scss.shim.ngstyle.js": 392,
+                    "layout.component.js": 2965,
+                    "layout.component.ngfactory.js": 6552
+                  },
+                  "topnav": {
+                    "topnav.component.scss.shim.ngstyle.js": 1856,
+                    "topnav.component.js": 4589,
+                    "topnav.component.ngfactory.js": 22168
+                  },
+                  "menu-partials": {
+                    "chef": {
+                      "chef-menu.component.js": 827
+                    },
+                    "customer": {
+                      "customer-menu.component.js": 839
+                    },
+                    "waiter": {
+                      "waiter-menu.component.js": 833
+                    }
+                  },
+                  "menu-item.js": 1088,
+                  "menu-setup.js": 95,
+                  "navigation.module.js": 1980,
+                  "navigation.service.js": 6194
+                },
+                "supervisor": {
+                  "collaborators": {
+                    "collaborators": {
+                      "supervisor-collaborators.component.scss.shim.ngstyle.js": 745,
+                      "supervisor-collaborators.component.js": 2683,
+                      "supervisor-collaborators.component.ngfactory.js": 23345
+                    },
+                    "edition": {
+                      "supervisor-collaborators-edition.component.js": 7209,
+                      "supervisor-collaborators-edition.component.ngfactory.js": 73485
+                    },
+                    "register": {
+                      "supervisor-collaborators-register.component.js": 8326,
+                      "supervisor-collaborators-register.component.ngfactory.js": 81565
+                    }
+                  },
+                  "dashboard": {
+                    "supervisor-dashboard.component.scss.shim.ngstyle.js": 1558,
+                    "supervisor-dashboard.component.js": 3250,
+                    "supervisor-dashboard.component.ngfactory.js": 18960
+                  },
+                  "establishment-table-control": {
+                    "supervisor-establishment-table-control.component.scss.shim.ngstyle.js": 90,
+                    "supervisor-establishment-table-control.component.js": 2330,
+                    "supervisor-establishment-table-control.component.ngfactory.js": 12257
+                  },
+                  "items-enable": {
+                    "items-enable-sup.component.scss.shim.ngstyle.js": 1152,
+                    "items-enable-sup.component.js": 3059,
+                    "items-enable-sup.component.ngfactory.js": 10456
+                  },
+                  "tables": {
+                    "supervisor-tables.component.scss.shim.ngstyle.js": 90,
+                    "supervisor-tables.component.js": 4106,
+                    "supervisor-tables.component.ngfactory.js": 15272
+                  }
+                },
+                "waiter": {
+                  "calls": {
+                    "call-close-confirm": {
+                      "call-close-confirm.component.scss.shim.ngstyle.js": 90,
+                      "call-close-confirm.component.js": 849,
+                      "call-close-confirm.component.ngfactory.js": 4236
+                    },
+                    "customer-order-confirm": {
+                      "customer-order-confirm.component.scss.shim.ngstyle.js": 588,
+                      "customer-order-confirm.component.js": 4160,
+                      "customer-order-confirm.component.ngfactory.js": 26188
+                    },
+                    "calls": {
+                      "calls.component.scss.shim.ngstyle.js": 2152,
+                      "calls.component.js": 3042,
+                      "calls.component.ngfactory.js": 15292
+                    }
+                  },
+                  "menu-list": {
+                    "menu-list.component.scss.shim.ngstyle.js": 26408,
+                    "menu-list.component.js": 6305,
+                    "menu-list.component.ngfactory.js": 51418
+                  }
+                },
+                "settings": {
+                  "settings": {
+                    "settings.web.component.scss.shim.ngstyle.js": 2573,
+                    "settings.web.component.js": 7493,
+                    "settings.web.component.ngfactory.js": 73934
+                  },
+                  "modal-dialog": {
+                    "change-email": {
+                      "change-email.web.component.js": 3058,
+                      "change-email.web.component.ngfactory.js": 33990
+                    },
+                    "change-password": {
+                      "change-password.web.component.js": 2370,
+                      "change-password.web.component.ngfactory.js": 27069
+                    }
+                  }
+                },
+                "cashier": {
+                  "cashier-orders-today.component.scss.shim.ngstyle.js": 5364,
+                  "cashier-orders-today.component.js": 3626,
+                  "cashier-orders-today.component.ngfactory.js": 46210
+                },
+                "app.component.scss.ngstyle.js": 111781,
+                "services": {
+                  "general": {
+                    "image.service.js": 787,
+                    "user-language.service.js": 1126
+                  },
+                  "navigation": {
+                    "admin-guard.service.js": 464,
+                    "cashier-guard.service.js": 466,
+                    "customer-guard.service.js": 467,
+                    "order-navigation.service.js": 1304,
+                    "route-guard.service.js": 303,
+                    "supervisor-guard.service.js": 479,
+                    "waiter-guard.service.js": 465
+                  },
+                  "payment": {
+                    "payu-payment.service.js": 1388
+                  }
+                },
+                "app.component.js": 2356,
+                "app.component.ngfactory.js": 1651,
+                "index.js": 9819
+              },
+              "app.module.js": 2447,
+              "app.module.ngfactory.js": 36075,
+              "app.routes.js": 9888
+            }
+          },
+          "polyfills.js": 161,
+          "main.js": 1462
+        },
+        "both": {
+          "methods": {
+            "establishment": {
+              "QR": {
+                "codeGenerator.js": 3110
+              },
+              "waiter-queue": {
+                "queues.methods.js": 2448,
+                "waiter-queue.methods.js": 7772
+              },
+              "establishment.methods.js": 5186,
+              "order-history.methods.js": 2666,
+              "order.methods.js": 7561,
+              "schedule.methods.js": 112,
+              "table.method.js": 2314
+            },
+            "auth": {
+              "collaborators.methods.js": 286,
+              "menu.methods.js": 541,
+              "user-detail.methods.js": 1254,
+              "user-devices.methods.js": 699,
+              "user-login.methods.js": 340,
+              "user.methods.js": 1630
+            },
+            "general": {
+              "change-email.methods.js": 327,
+              "country.methods.js": 411,
+              "cron.methods.js": 8314,
+              "email.methods.js": 2483,
+              "iurest-invoice.methods.js": 3395,
+              "parameter.methods.js": 143,
+              "push-notifications.methods.js": 267
+            },
+            "menu": {
+              "item.methods.js": 862
+            }
+          },
+          "collections": {
+            "auth": {
+              "device.collection.js": 249,
+              "menu.collection.js": 151,
+              "role.collection.js": 151,
+              "user-detail.collection.js": 249,
+              "user-login.collection.js": 260,
+              "user-penalty.collection.js": 269,
+              "user.collection.js": 240
+            },
+            "establishment": {
+              "establishment.collection.js": 538,
+              "order-history.collection.js": 263,
+              "order.collection.js": 247,
+              "reward-point.collection.js": 266,
+              "reward.collection.js": 259,
+              "table.collection.js": 247,
+              "waiter-call-detail.collection.js": 282
+            },
+            "general": {
+              "city.collection.js": 247,
+              "cooking-time.collection.js": 266,
+              "country.collection.js": 256,
+              "currency.collection.js": 259,
+              "email-content.collection.js": 269,
+              "hours.collection.js": 244,
+              "language.collection.js": 256,
+              "parameter.collection.js": 259,
+              "paymentMethod.collection.js": 271,
+              "point-validity.collection.js": 272,
+              "point.collection.js": 247,
+              "queue.collection.js": 247,
+              "type-of-food.collection.js": 264
+            },
+            "menu": {
+              "addition.collection.js": 242,
+              "category.collection.js": 245,
+              "garnish-food.collection.js": 254,
+              "item.collection.js": 230,
+              "option-value.collection.js": 252,
+              "option.collection.js": 236,
+              "section.collection.js": 239,
+              "subcategory.collection.js": 254
+            },
+            "payment": {
+              "cc-payment-methods.collection.js": 279,
+              "invoices-info.collection.js": 266,
+              "iurest-invoices.collection.js": 271,
+              "payment-history.collection.js": 275,
+              "payment-transaction.collection.js": 286
+            },
+            "points": {
+              "bag-plans-history.collection.js": 265,
+              "bag-plans.collection.js": 240,
+              "establishment-points.collection.js": 273,
+              "negative-points.collection.js": 258
+            }
+          },
+          "models": {
+            "auth": {
+              "device.model.js": 96,
+              "menu.model.js": 76,
+              "role.model.js": 76,
+              "user-detail.model.js": 105,
+              "user-login.model.js": 99,
+              "user-penalty.model.js": 76,
+              "user-profile.model.js": 101,
+              "user.model.js": 76
+            },
+            "establishment": {
+              "establishment.model.js": 76,
+              "node.js": 485,
+              "order-history.model.js": 76,
+              "order.model.js": 76,
+              "reward-point.model.js": 76,
+              "reward.model.js": 76,
+              "table.model.js": 76,
+              "waiter-call-detail.model.js": 76
+            },
+            "general": {
+              "city.model.js": 76,
+              "cooking-time.model.js": 76,
+              "country.model.js": 76,
+              "currency.model.js": 76,
+              "email-content.model.js": 76,
+              "hour.model.js": 76,
+              "language.model.js": 76,
+              "menu.model.js": 76,
+              "parameter.model.js": 76,
+              "paymentMethod.model.js": 76,
+              "pick-options.model.js": 76,
+              "point-validity.model.js": 76,
+              "point.model.js": 76,
+              "queue.model.js": 76,
+              "type-of-food.model.js": 76
+            },
+            "menu": {
+              "addition.model.js": 76,
+              "category.model.js": 76,
+              "garnish-food.model.js": 76,
+              "item.model.js": 76,
+              "option-value.model.js": 76,
+              "option.model.js": 76,
+              "section.model.js": 76,
+              "subcategory.model.js": 76
+            },
+            "payment": {
+              "cc-payment-method.model.js": 76,
+              "cc-request-colombia.model.js": 404,
+              "invoice-info.model.js": 76,
+              "iurest-invoice.model.js": 76,
+              "payment-history.model.js": 76,
+              "payment-transaction.model.js": 76,
+              "response-query.model.js": 146
+            },
+            "points": {
+              "bag-plan-history.model.js": 76,
+              "bag-plan.model.js": 76,
+              "establishment-point.model.js": 76,
+              "negative-point.model.js": 76
+            },
+            "collection-object.model.js": 76
+          },
+          "shared-components": {
+            "validators": {
+              "custom-validator.js": 981
+            }
+          }
+        },
+        "main.html.js": 98
+      }
+    ]
+  }
+}

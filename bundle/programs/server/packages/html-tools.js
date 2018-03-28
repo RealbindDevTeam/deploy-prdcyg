@@ -3560,11 +3560,7 @@ var parseAttrs = function (attrs) {
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-(function (pkg, symbols) {
-  for (var s in symbols)
-    (s in pkg) || (pkg[s] = symbols[s]);
-})(Package['html-tools'] = {}, {
+Package._define("html-tools", {
   HTMLTools: HTMLTools
 });
 

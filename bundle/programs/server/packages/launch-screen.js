@@ -6,11 +6,7 @@ var LaunchScreen;
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-(function (pkg, symbols) {
-  for (var s in symbols)
-    (s in pkg) || (pkg[s] = symbols[s]);
-})(Package['launch-screen'] = {}, {
+Package._define("launch-screen", {
   LaunchScreen: LaunchScreen
 });
 

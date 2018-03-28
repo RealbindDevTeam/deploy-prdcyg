@@ -503,11 +503,10 @@ function setRequireAndModule(context) {
     ".json"
   ]
 });
-var exports = require("./node_modules/meteor/shell-server/main.js");
+var exports = require("/node_modules/meteor/shell-server/main.js");
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-Package['shell-server'] = exports;
+Package._define("shell-server", exports);
 
 })();
 

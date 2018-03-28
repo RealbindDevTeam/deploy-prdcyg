@@ -3,7 +3,6 @@
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-Package['angular-compilers'] = {};
+Package._define("angular-compilers");
 
 })();

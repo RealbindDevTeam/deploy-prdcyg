@@ -3,7 +3,6 @@
 
 
 /* Exports */
-if (typeof Package === 'undefined') Package = {};
-Package['mobile-experience'] = {};
+Package._define("mobile-experience");
 
 })();
