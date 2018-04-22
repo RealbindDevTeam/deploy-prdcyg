@@ -2,22 +2,22 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "92db5a62226c39cce2020e57f28e49a872a600ea.js",
+      "path": "9c653e0135b4a716f354b598239f3cfeb1ac5224.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/92db5a62226c39cce2020e57f28e49a872a600ea.js?meteor_js_resource=true",
-      "size": 7203676,
-      "hash": "92db5a62226c39cce2020e57f28e49a872a600ea"
+      "url": "/9c653e0135b4a716f354b598239f3cfeb1ac5224.js?meteor_js_resource=true",
+      "size": 5817983,
+      "hash": "9c653e0135b4a716f354b598239f3cfeb1ac5224"
     },
     {
-      "path": "92db5a62226c39cce2020e57f28e49a872a600ea.stats.json",
+      "path": "9c653e0135b4a716f354b598239f3cfeb1ac5224.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/92db5a62226c39cce2020e57f28e49a872a600ea.stats.json?meteor_js_resource=true",
-      "size": 94154,
-      "hash": "a78f0328d23921155dea68c3fb04c0f259ab5763"
+      "url": "/9c653e0135b4a716f354b598239f3cfeb1ac5224.stats.json?meteor_js_resource=true",
+      "size": 85466,
+      "hash": "a8091f976d5ace2115b050df0ea21e71ff04670d"
     },
     {
       "path": "2fceae1256185bf0e9a9dc041a119f58cb073b2f.css",
@@ -142,8 +142,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/i18n/en.json",
-      "size": 87964,
-      "hash": "87edcbdf998bd36a74f40365e41ee598a313fec8"
+      "size": 90235,
+      "hash": "fc4ea3fa3ac001a71e4e8949bc5633efb2a14d20"
     },
     {
       "path": "app/i18n/es.json",
@@ -151,8 +151,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/i18n/es.json",
-      "size": 93598,
-      "hash": "44e49fbb94a1df7968fed7246e876730f04c0910"
+      "size": 95961,
+      "hash": "88c1ae2c9b14e0b6c387f05058a76cd762b3f6f5"
     },
     {
       "path": "app/images/404.png",
@@ -475,8 +475,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/images/landing-3.png",
-      "size": 1487490,
-      "hash": "ddd60cbc8ec6b3963be342dfb6e016887240e3f2"
+      "size": 2076089,
+      "hash": "e2b16b9db44cc64cd59d31ec46db35aba7e77f2b"
     },
     {
       "path": "app/images/landing-pc.png",
@@ -659,6 +659,15 @@
       "hash": "b3ccc7ea6f8f1ffc16996c768d468daa729e7a5a"
     },
     {
+      "path": "app/images/qr-scan.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/qr-scan.png",
+      "size": 18389,
+      "hash": "222db588ab17b8afdb6138e86dfa24502ef250f6"
+    },
+    {
       "path": "app/images/reactivate-restaurant.png",
       "where": "client",
       "type": "asset",
@@ -693,6 +702,15 @@
       "url": "/images/reward.png",
       "size": 17231,
       "hash": "aa89483c4f98298b898321ef7f157ed5b3c8a645"
+    },
+    {
+      "path": "app/images/rewards.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/rewards.png",
+      "size": 20580,
+      "hash": "f5edfa8ac7075091e8b6e86ddff820e2976b6359"
     },
     {
       "path": "app/images/sections.png",
@@ -774,6 +792,15 @@
       "url": "/images/subcategories.png",
       "size": 19828,
       "hash": "f370c5dfc5a8903858c7c8b54648d62866768923"
+    },
+    {
+      "path": "app/images/supervisors.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/supervisors.png",
+      "size": 24903,
+      "hash": "cc15d8ae9af7813c00b40e98c01e119f88daa3a7"
     },
     {
       "path": "app/images/tables.png",

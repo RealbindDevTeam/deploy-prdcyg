@@ -276,16 +276,6 @@
       "path": "packages/astrocoders_one-signal.js"
     },
     {
-      "path": "packages/mrt_later.js"
-    },
-    {
-      "path": "packages/coffeescript.js"
-    },
-    {
-      "sourceMap": "packages/vsivsi_job-collection.js.map",
-      "path": "packages/vsivsi_job-collection.js"
-    },
-    {
       "path": "packages/facebook-oauth.js"
     },
     {
