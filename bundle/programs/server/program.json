@@ -339,6 +339,8 @@
       "path": "app/global-imports.js",
       "assets": {
         "charge-soon-email.html": "assets/app/charge-soon-email.html",
+        "check-medals-email.html": "assets/app/check-medals-email.html",
+        "check-negative-email.html": "assets/app/check-negative-email.html",
         "expire-soon-email.html": "assets/app/expire-soon-email.html",
         "html-email.html": "assets/app/html-email.html",
         "rest-expired-email.html": "assets/app/rest-expired-email.html"
@@ -350,6 +352,8 @@
       "path": "app/app.js",
       "assets": {
         "charge-soon-email.html": "assets/app/charge-soon-email.html",
+        "check-medals-email.html": "assets/app/check-medals-email.html",
+        "check-negative-email.html": "assets/app/check-negative-email.html",
         "expire-soon-email.html": "assets/app/expire-soon-email.html",
         "html-email.html": "assets/app/html-email.html",
         "rest-expired-email.html": "assets/app/rest-expired-email.html"
