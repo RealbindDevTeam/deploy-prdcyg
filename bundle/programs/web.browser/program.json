@@ -2,22 +2,22 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "e42d3d600a10a37754bb240591f0845782934105.js",
+      "path": "720b11624458704ed7965305b32faace06ec6f45.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/e42d3d600a10a37754bb240591f0845782934105.js?meteor_js_resource=true",
-      "size": 5818670,
-      "hash": "e42d3d600a10a37754bb240591f0845782934105"
+      "url": "/720b11624458704ed7965305b32faace06ec6f45.js?meteor_js_resource=true",
+      "size": 5526978,
+      "hash": "720b11624458704ed7965305b32faace06ec6f45"
     },
     {
-      "path": "e42d3d600a10a37754bb240591f0845782934105.stats.json",
+      "path": "720b11624458704ed7965305b32faace06ec6f45.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/e42d3d600a10a37754bb240591f0845782934105.stats.json?meteor_js_resource=true",
-      "size": 85466,
-      "hash": "bad2fd5fc01cacbe0a2a30f8752f66cd0cb4c3d0"
+      "url": "/720b11624458704ed7965305b32faace06ec6f45.stats.json?meteor_js_resource=true",
+      "size": 83251,
+      "hash": "d8cc60141623a1a1bdbad464ba9bad9913653d86"
     },
     {
       "path": "2fceae1256185bf0e9a9dc041a119f58cb073b2f.css",
@@ -524,6 +524,15 @@
       "hash": "133e4d3f8a1d554180e499c5c40c54b4910c4407"
     },
     {
+      "path": "app/images/medal.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/medal.png",
+      "size": 18096,
+      "hash": "576fc42c0bb8f74f2810e2a68702df9138ed6166"
+    },
+    {
       "path": "app/images/my-orders.png",
       "where": "client",
       "type": "asset",
@@ -531,6 +540,15 @@
       "url": "/images/my-orders.png",
       "size": 8215,
       "hash": "964dcb84688bc9e358968469a6427a42532303a7"
+    },
+    {
+      "path": "app/images/no-rewards.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/no-rewards.png",
+      "size": 16429,
+      "hash": "15d6a3f9dd9ace8cd2914d7c8058e24bc6f18858"
     },
     {
       "path": "app/images/obtener-aplicacion.jpg",
@@ -709,8 +727,8 @@
       "type": "asset",
       "cacheable": false,
       "url": "/images/rewards.png",
-      "size": 20580,
-      "hash": "f5edfa8ac7075091e8b6e86ddff820e2976b6359"
+      "size": 17667,
+      "hash": "b78589942655b9b6457a1a7c0be5d70b94c02626"
     },
     {
       "path": "app/images/sections.png",
