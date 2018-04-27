@@ -2,22 +2,22 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "720b11624458704ed7965305b32faace06ec6f45.js",
+      "path": "a033af2a7d1a7beea1d659d53fbfa3b9f6e64c17.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/720b11624458704ed7965305b32faace06ec6f45.js?meteor_js_resource=true",
-      "size": 5526978,
-      "hash": "720b11624458704ed7965305b32faace06ec6f45"
+      "url": "/a033af2a7d1a7beea1d659d53fbfa3b9f6e64c17.js?meteor_js_resource=true",
+      "size": 5528592,
+      "hash": "a033af2a7d1a7beea1d659d53fbfa3b9f6e64c17"
     },
     {
-      "path": "720b11624458704ed7965305b32faace06ec6f45.stats.json",
+      "path": "a033af2a7d1a7beea1d659d53fbfa3b9f6e64c17.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/720b11624458704ed7965305b32faace06ec6f45.stats.json?meteor_js_resource=true",
+      "url": "/a033af2a7d1a7beea1d659d53fbfa3b9f6e64c17.stats.json?meteor_js_resource=true",
       "size": 83251,
-      "hash": "d8cc60141623a1a1bdbad464ba9bad9913653d86"
+      "hash": "b6367223fc5d47fce8e1726a354b6119445d2a45"
     },
     {
       "path": "2fceae1256185bf0e9a9dc041a119f58cb073b2f.css",
@@ -398,6 +398,15 @@
       "hash": "d827c202708f020089cf8569203ce1fbf28f0819"
     },
     {
+      "path": "app/images/facebook.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/facebook.png",
+      "size": 410,
+      "hash": "18069d1a262de1c83440f9652b77bc4a6b9b3cbb"
+    },
+    {
       "path": "app/images/favicon.png",
       "where": "client",
       "type": "asset",
@@ -414,6 +423,15 @@
       "url": "/images/garnish-food.png",
       "size": 20760,
       "hash": "1e4e5ae5c230544dc7e58d8699a3883a5bd83625"
+    },
+    {
+      "path": "app/images/instagram.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/instagram.png",
+      "size": 1222,
+      "hash": "7f77445d473cdeb3af318c5e91b99262e2a7f462"
     },
     {
       "path": "app/images/iphone.png",
@@ -486,6 +504,15 @@
       "url": "/images/landing-pc.png",
       "size": 119945,
       "hash": "5ba3118a553caf5c49185edf54949690c5e82b88"
+    },
+    {
+      "path": "app/images/logo_200X60.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo_200X60.png",
+      "size": 3569,
+      "hash": "91239d9858ff34c239b13c3c1f3811ae978ea8d0"
     },
     {
       "path": "app/images/logo_iurest.png",
@@ -864,6 +891,15 @@
       "url": "/images/trn_pending.png",
       "size": 14998,
       "hash": "169b9f63132be4103485c7ad405e9c66bb8929b3"
+    },
+    {
+      "path": "app/images/twitter.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/twitter.png",
+      "size": 878,
+      "hash": "e0ba6eed43c81a0ec7f76e67bb342411fd6fb2b2"
     },
     {
       "path": "app/images/user_default_image.png",
